@@ -74,10 +74,12 @@
 
 /* Footer */
 .footer-logo {
-    font-size: 2.7vw;
+    padding-top: 0;
+    font-size: 2.6vw;
 }
 .footer-right p {
     font-size: 1.2vw;
+    padding-bottom: 0.rem;
 }
 .footer-right h4 {
     font-size: 1vw;
@@ -86,10 +88,19 @@
 .footer-right ul li {
     font-size: 0.7rem;
     padding: 0rem 0.4vw;
+    position: relative;
+    bottom: 0;
+}
+.footer-right h4 {
+    position: relative;
+    bottom: 0.2rem;
 }
 .footer-center li {
     font-size: 1.1vw;
 }
 .footer-center h3 {
     font-size: 1.9vw;
+}
+.footer-left li  {  
+    font-size: 1.2vw;  
 }
