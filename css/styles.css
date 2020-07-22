@@ -104,7 +104,7 @@ body, html {
     display: inline-block;
     transition: 0.6s linear;
 }
-.fa-facebook, .fa-instagram, .fa-twitter-square, .fa-tripadvisor {
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-tripadvisor {
     font-size: 1.2rem;
 }
 .nt-sub-text:hover {
@@ -218,68 +218,58 @@ body, html {
 }
 
 /* Footer */
+#footer {
+    background-color: #fff;
+    width: 100%;
+    height: 20vw;
+    max-height: 12rem;
+    text-align: center;
+    margin: auto;
+}
 .footer-container {
     display: flex;
     background-color: #fff;
-    width: 100%;
-    height: 16vw;
+    width: 90%;
+    margin: auto;
+    height: 100%;
     max-height: 12rem;
-    color: #333;
 }
-.footer-container a {
+.footer-opening {
+    text-align: center;
+    margin: auto;
+}
+.footer-address, .footer-opening, .footer-links, .footer-social {
+    text-align: center;
+    margin: auto;
+}
+.footer-social li{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+.footer-links a{
     font-family: 'Roboto';
+    font-size: 0.9rem;
 }
-.footer-logo {
-    padding-top: 1rem;
-    font-size: 2.2vw;
+.footer-links a:hover {
+    color: #A46877;
+}
+.footer-opening .opening-title {
+    color: #A46877;
+    font-size: 1.1rem;
+}
+.footer-opening li {
+    font-size: 0.9rem;
+}
+.footer-address .footer-logo {
+    font-size: 2.2rem;
     font-family: 'Pacifico', cursive;
 }
-.footer-right {
-    text-align: center;
-    margin: auto;
-}
-.footer-right p {
+.footer-address p, .nav-phone {
     font-family: 'Roboto';
-    font-size: 0.7vw;
+    font-size: 0.9rem;
 }
-.footer-right h4 {
-    position: relative;
-    bottom: 1rem;
-    font-size: 0.6vw;
-    font-family: 'roboto';
-}
-.footer-right ul li {
-    display: inline-block;
-    font-size: 0.6rem;
-    padding: 0rem 0.6vw;
-    position: relative;
-    bottom: 0.6rem;
-}
-.footer-center {
-    text-align: center;
-    position: relative;
-    left: 3rem;
-    margin: auto;
-}
-.footer-center li {
-    font-size: 0.9vw;
-    font-family: 'Roboto';
-    font-weight: 500;
-}
-.footer-center h3 {
-    color: #A46877;
-    font-size: 0.9vw;
-}
-.footer-left {    
-    font-family: 'Roboto';
-    margin: auto;
-    text-align: center;
- }
- .footer-left li  {
-     font-family: 'Roboto';
-     font-size: 0.8vw;
-     transition: 0.4s linear;
-}
-.footer-left a:hover {
-    color: #A46877;
+.footer-address h4 {
+    font-size: 9px;
+    margin-top: 1.2rem;
 }
