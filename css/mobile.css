@@ -46,9 +46,10 @@ display: none;
 
 /* Showcase */
 .background img {
-  width: auto;
+  width: 100vw;
   height: 40vw;
   min-height: 300px;
+  overflow: hidden;
 }
 .welcome {
     width: 100%;
