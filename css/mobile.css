@@ -106,7 +106,8 @@ display: none;
     text-align: center;
 }
 .display-bottom {
-    display: inline-block;
+    display: flex;
+    flex-direction: column-reverse;
     background-color: #333;
     width: 100%;
     height: auto;
@@ -126,11 +127,10 @@ display: none;
 .display-bottom .display-text {
     display: inline-block;
     text-align: center;
-    direction: ltr;
     width: 90%;
     margin: auto;
     line-height: 1.4;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     padding: 0;
 }
 .display-top .display-text h1 {
@@ -157,16 +157,17 @@ display: none;
 
 }
 .display-bottom .display-img {
-    display: inline-block;
+    display: flex;
+    flex-direction: column-reverse;
     text-align: center;
     justify-content: center;
     width: 90%;
     margin: auto;
     padding: 1rem 0;
-    margin-left: 0vw;
 }
 .display-img img {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     width: 100%;
     margin: auto;
     box-shadow: none;
