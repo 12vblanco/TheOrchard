@@ -6,125 +6,164 @@ font-family: 'Roboto', sans-serif; */
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
-a {
-    text-decoration: none;
-    color: inherit;
-    font-family: 'Roboto', sans-serif;
+.fa-angle-down:before {
+    font-size: 0.6rem;
 }
-body, html {
-    background-color: #333;
-}
-/* Styling */
-
-
-/* Navbar */
-.navbar-top {
-    z-index: 2;
-    position: fixed;
-    display: inline-block;
+html, 
+body {
     background: #fff;
-    color: #333;
-    height: 4.4rem;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto';
 }
-.navbar-logo {
-    display: inline-block;
-    width: 38%;
-    min-width: 250px;
-    text-align: right;
-    margin: 0 auto;
-}
-.logo {
-    font-family: 'Pacifico', cursive;
-    font-size: 2.7rem;
-}
-.navbar-text {
-    display: inline-block;
-    text-align: left;
-    font-size: 0.9rem;
-    margin-left: 7vw;
-    color: #333;
-    height: 100%;
-    padding-top: 1.8rem;
-    z-index: 4;
-}
-.nav-top-submenu {
-    display: inline-block;
-}
-.navbar-text .nav-top-submenu .nt-sub-text {
-    display: inline-block;
-    padding: 0 1vw 0 0;
-    transition: 0.4s linear;
-}
-.nav-phone {
-    color: #A46877;
-}
-.food {
-    padding: 0 0.55rem 0 0;
+a:link, a:visited {
     text-decoration: none;
 }
-#navbar-bottom {
-    background: #333;
-    z-index: 1;
+#navbar {
     position: fixed;
-    display: inline-block;
-    height: 6.4rem;
     width: 100%;
-    box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
-    -khtml-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+    background: #fff;
+    z-index: 2;
 }
-#navbar-bottom a {
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 700;
+#navbar .navbar-top {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    width: 100%;
+    background: #fff;
+    height: 4.6rem;
+    text-align: center;
+    margin: auto;
+}
+#navbar .navbar-top .logo {
+    text-align: right;
+    min-width: 333px;
+    width: 40%;
     position: relative;
-    top: 4.8rem;
+    top: 0.6rem;
+    padding-right: 4vw;
+    color: #333;
+    display: inline-block;
+    font-size: 2.8rem;
+    font-family: 'Pacifico', cursive;
 }
-#navbar-bottom ul {
+#navbar .navbar-top .logo a{
+    color: #333;
+}
+#navbar .navbar-top .top-right{
     text-align: center;
 }
-#navbar-bottom ul li {
-    display: inline-block;
+#navbar .navbar-top .navbar-text {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    text-align: left;
+    font-size: 0.rem;
 }
-#navbar-bottom ul li a {
-    margin: 0 2rem;
-    display: inline-block;
-    transition: 0.6s linear;
-}
-.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-tripadvisor {
+#navbar i.fas, i.fab {
     font-size: 1.2rem;
+} 
+#navbar .navbar-top .navbar-text ul li {
+    display: inline-block;
 }
-.nt-sub-text:hover {
-    color: #A46877;
+#navbar .navbar-top .navbar-text a{
+    color: #333;
+    font-weight: 600;
+    padding-right: 1rem;
 }
-.navbar-menu ul li a:hover {
-    border-bottom: 1px solid #A46877;
+#navbar .navbar-top .navbar-text .pink {
+    color: #a46877;
+}
+#navbar .navbar-top .navbar-text a:hover {
+    color: #a46877;
+    transition: 0.3s linear;
+}
+
+#navbar .navbar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2.2rem;
+    background: #333;   
+    text-align: center;
+}
+#navbar .navbar-bottom ul {
+    list-style: none;
+}
+#navbar .navbar-bottom ul li {
+    color: #fff;
+    display: inline-block;
+    padding: 0 2rem;
+    position: relative;
+    font-size: 0.9rem;
+}
+
+#navbar .navbar-bottom ul li a {
+    color: #fff;
+}
+#navbar .navbar-bottom ul li a:hover {
+    color: #a46877;
+    transition: 0.3s linear;
+}
+
+/* Hide bt default */
+#navbar .navbar-bottom ul li ul {
+    display: none;
+}
+
+#navbar .navbar-bottom ul li:hover {
+    cursor: pointer;
+    color: #a46877;
+    transition: 0.3s linear;
+}
+
+
+/* Nested show */
+#navbar .navbar-bottom ul li:hover ul {
+    display: block;
+    position: absolute;
+    right: -1.2rem;
+    width: 160px;
+    padding: 0.4rem 0;
+}
+#navbar .navbar-bottom ul li:hover ul li {
+    display: block;
+    background: #333;
+    padding: 0.4rem 0;
+    }
+#navbar .navbar-bottom ul li:hover ul li a {
+    color: #fff;
+    transition: 0.3s linear;
+}
+#navbar .navbar-bottom ul li:hover ul li a:hover {
+    color: #a46877;
+    padding: 0;
 }
 /* Showcase */
 .background img {
-  width: 100%;
+  width: auto;
+  height: 40vw;
+  max-height: 700px;
   object-fit: cover;
 }
 .welcome {
+    position: relative;
+    top: -0.8rem;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    background-color: #333;
+    width: 100%;
     text-align: center;
-    height: 12vh;
+    height: 13vh;
 }
 .welcome h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 1rem 0 0.4rem 0;
     }
 .welcome p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     max-width: 650px;
     margin: auto;
 }
@@ -156,14 +195,14 @@ body, html {
     100% {opacity:1;}
   }
 
+
+
 /* Display */
 .display-top {
     display: flex;
     background-color: #fff;
     width: 100%;
     height: 60vh;
-    align-items: center;
-    margin: auto;
 }
 .display-bottom {
     display: flex;
@@ -172,7 +211,8 @@ body, html {
     height: 60vh;
 }
 .display-top .display-text {
-    text-align: right;
+    direction: rtl;
+    text-align: justify;
     width: 36%;
     max-width: 900px;
     margin: auto;
@@ -193,15 +233,13 @@ body, html {
 .display-bottom .display-text h1 {
     font-weight: 300;
 }
+
 .display-text h3 a{
     font-family: 'Roboto';
     font-weight: 400;
     color: #A46877;
 }
-.display-bottom .display-text h3 {
-    color: #A46877;
-    font-weight: 300;
-}
+
 .display-top .display-img {
     text-align: left;
     margin: auto;
@@ -213,23 +251,35 @@ body, html {
     margin-right: -6vw;
 }
 .display-img img {
+    width: 30vw;
+    min-width: 300px;
+    max-width: 520px;
     box-shadow: 5px 5px 15px #000;
     -moz-box-shadow: 5px 5px 15px #000;
     -webkit-box-shadow: 5px 5px 15px #000;
     -khtml-box-shadow: 5px 5px 15px #000;
 }
-.text-menu {
-    color: #A46877;
-}
+
 
 /* Footer */
 #footer {
-    background-color: #fff;
+    background: #fff;
     width: 100%;
     height: 20vw;
     max-height: 12rem;
     text-align: center;
     margin: auto;
+    position: relative;
+    bottom: 0;
+    list-style: none;
+}
+#footer ul {
+    list-style: none;
+    color: #333;
+}
+#footer a {
+    text-decoration: none;
+    color: #333;
 }
 .footer-container {
     display: flex;
@@ -238,6 +288,7 @@ body, html {
     margin: auto;
     height: 100%;
     max-height: 12rem;
+    
 }
 .footer-opening {
     text-align: center;
@@ -249,8 +300,9 @@ body, html {
 }
 .footer-social li {
     display: inline-block;
+    color: #333;
     padding: 0.6rem;
-    transition: 0.4s linear;
+    transition: 0.3s linear;
 }
 .footer-social .fa-facebook-f, .footer-social .fa-instagram,
 .footer-social .fa-twitter, .footer-social .fa-tripadvisor {
@@ -265,8 +317,9 @@ body, html {
     font-size: 0.9rem;
     font-weight: 500;
 }
-.footer-links a:hover {
+#footer a:hover {
     color: #A46877;
+    transition: 0.3s linear;
 }
 .footer-opening .opening-title {
     color: #A46877;
@@ -288,9 +341,25 @@ body, html {
     font-size: 9px;
     margin-top: 1.2rem;
 }
+#footer .nav-phone a {
+    color: #a46877;
+}
 
 /* covid */
-
+.covid-left, .covid-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+.covid-left img, .covid-right img {
+    width: 15vw;
+    margin: auto;
+    
+}
 /* Gallery */
 
 .general-container {
@@ -298,6 +367,7 @@ body, html {
     background: white;
 }
 .items-container {
+    background: #000;
     display: flex;
     flex-wrap: wrap;
     flex-direction: initial;
@@ -330,4 +400,9 @@ body, html {
 .list-img {
     width: 60px;
     height: 50px;
+}
+
+/* Hamburger */
+.menu-wrap {
+    display: none;
 }
