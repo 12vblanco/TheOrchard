@@ -403,6 +403,12 @@ a:link, a:visited {
 }
 
 /* Hamburger */
-.menu-wrap {
+.menu-wrap .toggler {
+    display: none;
+}
+.menu-wrap .hamnurger {
+    display: none;
+}
+.menu-wrap .menu {
     display: none;
 }
