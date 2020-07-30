@@ -261,7 +261,7 @@ display: none;
 }
 .footer-address h4 {
     font-size: 9px;
-    margin-top: 1.2rem;
+    margin: 1.2rem 0 0.6rem 0;
 }
 #footer .nav-phone a {
     color: #a46877;
