@@ -20,6 +20,9 @@ body {
 a:link, a:visited {
     text-decoration: none;
 }
+.current {
+    border-bottom: 1px solid #a46877;
+}
 #navbar {
     position: fixed;
     width: 100%;
@@ -349,22 +352,33 @@ a:link, a:visited {
 }
 
 /* covid */
-.covid-left, .covid-right {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+#covid {
     height: 100%;
-    width: 50%;
-    margin: auto;
+    max-height: 650px;
+}
+.display-covid {
+    display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
-.covid-left img, .covid-right img {
-    width: 15vw;
-    margin: auto;
-    
+.covid-img img {
+    width: 300px;
+    margin-top: 4vw;
 }
-/* Gallery */
+.covid-text {
+    width: 40%;
+    padding: 4rem;
+    margin-top: 4rem;
+}
 
+
+/* Gallery */
+#covid {
+    display: flex;
+}
 .general-container {
     width: 100%;
     background: white;
