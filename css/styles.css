@@ -131,6 +131,8 @@ a:link, a:visited {
 #navbar .navbar-bottom ul li:hover ul li {
     display: block;
     background: #333;
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 5px;
     padding: 0.4rem 0;
     }
 #navbar .navbar-bottom ul li:hover ul li a {
@@ -253,7 +255,7 @@ a:link, a:visited {
 .display-img img {
     width: 30vw;
     min-width: 300px;
-    max-width: 520px;
+    max-width: 480px;
     box-shadow: 5px 5px 15px #000;
     -moz-box-shadow: 5px 5px 15px #000;
     -webkit-box-shadow: 5px 5px 15px #000;
@@ -288,7 +290,7 @@ a:link, a:visited {
     margin: auto;
     height: 100%;
     max-height: 12rem;
-    
+    padding-top: 0.6rem;
 }
 .footer-opening {
     text-align: center;
@@ -316,6 +318,7 @@ a:link, a:visited {
     font-family: 'Roboto';
     font-size: 0.9rem;
     font-weight: 500;
+    line-height: 2;
 }
 #footer a:hover {
     color: #A46877;
