@@ -288,6 +288,7 @@ a:link, a:visited {
     width: 50%;
     padding: 5vw;
     text-align: justify;
+    margin-bottom: 4rem;
 }
 .covid-text ul {
     display: flex;
