@@ -275,17 +275,33 @@ a:link, a:visited {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 80vh;
     padding-top: 8rem;
-    /* padding-bottom: 2vw; */
 }
 .covid-img img {
-    width: 300px;
+    display: flex;
+    width: 320px;
 }
 .covid-text {
-    width: 40%;
-    padding: 4rem;
-    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5vw;
+    text-align: justify;
+}
+.covid-text ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.covid-text ul li {
+    color: #333;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem ;
+    color: #333;
 }
 
 /* Gallery */
@@ -300,11 +316,10 @@ a:link, a:visited {
     justify-content: center;
     width: 100%;
     height: auto;
-    padding-top: 1rem;
+    padding: 1rem;
     /* padding-bottom: 2vw; */
 }
 .items-container {
-    background: #000;
     display: flex;
     flex-wrap: wrap;
     flex-direction: initial;
@@ -324,7 +339,9 @@ a:link, a:visited {
     -khtml-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
 }
 .gallery-item:hover {
+    cursor: pointer;
     transform: scale(1.02);
+    transition: 0.4s;
 }
 
 /* About Us */
