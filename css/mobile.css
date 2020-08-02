@@ -184,7 +184,6 @@ display: none;
     justify-content: center;
 }
 
-
 /* Footer */
 #footer {
     background: #fff;
@@ -292,8 +291,8 @@ display: none;
     margin: auto;
     
 }
-/* Gallery */
 
+/* Gallery */
 .general-container {
     width: 100%;
     background: white;

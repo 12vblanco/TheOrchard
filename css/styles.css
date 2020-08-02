@@ -16,6 +16,7 @@ html,
 body {
     background: #fff;
     font-family: 'Roboto';
+    scroll-behavior: smooth;
 }
 a:link, a:visited {
     text-decoration: none;
@@ -200,8 +201,6 @@ a:link, a:visited {
     100% {opacity:1;}
   }
 
-
-
 /* Display */
 .display-top {
     display: flex;
@@ -265,6 +264,136 @@ a:link, a:visited {
     -khtml-box-shadow: 5px 5px 15px #000;
 }
 
+/* covid */
+#covid {
+    position: relative;
+    min-height: 80vh;
+}
+.covid-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    /* padding-bottom: 2vw; */
+}
+.covid-img img {
+    width: 300px;
+}
+.covid-text {
+    width: 40%;
+    padding: 4rem;
+    margin-top: 4rem;
+}
+
+/* Gallery */
+#gallery {
+    position: relative;
+    min-height: 80vh;
+}
+.gallery-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    /* padding-bottom: 2vw; */
+}
+.items-container {
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: initial;
+    width: 70%;
+    margin: auto;
+    max-width: 1800px;
+    padding-top: 8rem;
+    padding-bottom: 1.8vw;
+    justify-content: space-around;
+}
+.gallery-item {
+    width: 220px;
+    margin: 0.8rem;
+    box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+    -khtml-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+}
+.gallery-item:hover {
+    transform: scale(1.02);
+}
+
+/* About Us */
+#about {
+    position: relative;
+    min-height: 80vh;
+}
+.about-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    /* padding-bottom: 2vw; */
+}
+.list-quote {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 2rem;
+}
+.list-img {
+    width: 60px;
+    height: 50px;
+}
+
+/* Reservations */
+#reservations {
+    position: relative;
+    min-height: 80vh;
+}
+.reservations-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    /* padding-bottom: 2vw; */
+}
+
+/* Art */
+#art {
+    position: relative;
+    min-height: 80vh;
+}
+.art-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    /* padding-bottom: 2vw; */
+}
+/* Hamburger */
+.menu-wrap .toggler {
+    display: none;
+}
+.menu-wrap .hamnurger {
+    display: none;
+}
+.menu-wrap .menu {
+    display: none;
+}
 
 /* Footer */
 #footer {
@@ -351,81 +480,4 @@ a:link, a:visited {
     color: #a46877;
 }
 
-/* covid */
-#covid {
-    height: 100%;
-    max-height: 650px;
-}
-.display-covid {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-.covid-img img {
-    width: 300px;
-    margin-top: 4vw;
-}
-.covid-text {
-    width: 40%;
-    padding: 4rem;
-    margin-top: 4rem;
-}
 
-
-/* Gallery */
-#covid {
-    display: flex;
-}
-.general-container {
-    width: 100%;
-    background: white;
-}
-.items-container {
-    background: #000;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: initial;
-    width: 70%;
-    margin: auto;
-    max-width: 1800px;
-    padding-top: 8rem;
-    padding-bottom: 1.8vw;
-    justify-content: space-around;
-}
-.gallery-item {
-    width: 220px;
-    margin: 0.8rem;
-    box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
-    -khtml-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
-}
-.gallery-item:hover {
-    transform: scale(1.02);
-}
-
-/* About Us */
-.list-quote {
-    display: flex;
-    flex-direction: column;
-    width: 650px;
-    margin: 2rem;
-}
-.list-img {
-    width: 60px;
-    height: 50px;
-}
-
-/* Hamburger */
-.menu-wrap .toggler {
-    display: none;
-}
-.menu-wrap .hamnurger {
-    display: none;
-}
-.menu-wrap .menu {
-    display: none;
-}
