@@ -323,7 +323,7 @@ a:link, a:visited {
     display: flex;
     flex-wrap: wrap;
     flex-direction: initial;
-    width: 70%;
+    width: 60%;
     margin: auto;
     max-width: 1800px;
     padding-top: 8rem;
