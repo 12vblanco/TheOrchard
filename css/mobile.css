@@ -234,7 +234,7 @@ display: none;
     padding: 1rem;
 }
 .about-container img {    
-    width: 320px;
+    width: 100%;
 }
 .about-container .about-opening {
     padding: 2rem;
@@ -259,7 +259,7 @@ display: none;
     height: 50px;
 }
 .map {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 .quote-map {
     display: inline-block;
