@@ -115,57 +115,101 @@
 .items-container {    
     width: 100%;    
 }
-/* About Us */
 
+/* About Us */
+#about {
+    position: relative;
+    min-height: 80vh;
+}
+.about-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 3.8rem;
+}
+.about-container .top {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 0rem;
+}
 .about-container .bottom {
-    width: 90%;
+    width: 100%;
+    margin: auto;
+    background: #333;
+    padding: 1rem;
+    margin-bottom: 0rem;
+}
+.about-container .bottom p {
+    color: #fff;
+    max-width: 90%;
+    padding: 1rem;
     margin: auto;
 }
 .about-container img {
     display: flex;
-    width: 400px;
+    width: 480px;
     height: auto;
-    margin: 0 2rem;
+    margin: auto;
+    box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
+    -khtml-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
 }
 .about-container .about-opening {
     display: flex;
     text-align: center;
-    padding: 4rem 2rem;
-    font-size: 1.4rem;
+    padding: 8rem 2rem 8rem 4rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    justify-content: center;
 }
 .about-container .about-opening .opening-title{
     color: #a46877;
 }
 .list-quote {    
-    display: flex;
-    flex-direction: column;
-    width: 650px;
-    margin: 2rem;
-    text-align: center;
-}
-.list-quote img {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-}
-.list-quote p {
-    display: flex;
-    flex-direction: row;
+    
+    padding: 2rem;
 }
 
-.list-quote a {    
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    color: #a46877;
+.list-quote p {
+    max-width: 80%;
 }
+.list-quote a {    
+     margin: auto;
+    color: #a46877;
+    margin-bottom: 2rem;
+}
+
 .list-quote .list-img {
     width: 60px;
     height: 50px;
 }
+.map {
+    margin: 1rem;
+}
 .quote-map {
+    display: inline-block;
     text-align: center;
     margin: auto;
+}
+.quote-map .address {
+    display: inline-block;
+    justify-content: center;
+    margin: 2rem;
+}
+.quote-map .address p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.quote-map .address a {
+    color: #a46877;
 }
 
 /* Footer */
@@ -206,16 +250,4 @@
     margin-top: 0.9rem;
 }
 
-
-/* About Us */
-.list-quote {
-    display: flex;
-    flex-direction: column;
-    width: 650px;
-    margin: 2rem;
-}
-.list-img {
-    width: 60px;
-    height: 50px;
-}
 

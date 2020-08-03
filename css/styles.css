@@ -359,7 +359,7 @@ a:link, a:visited {
     width: 100%;
     height: auto;
     margin: auto;
-    padding-top: 10rem;
+    padding-top: 8rem;
     /* padding-bottom: 2vw; */
 }
 .about-container .top {
@@ -384,9 +384,9 @@ a:link, a:visited {
 }
 .about-container img {
     display: flex;
-    width: 700px;
+    width: 680px;
     height: auto;
-    margin: 0 2rem;
+    margin: auto;
     box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.75);
@@ -395,8 +395,10 @@ a:link, a:visited {
 .about-container .about-opening {
     display: flex;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 8rem 2rem;
     font-size: 1.4rem;
+    line-height: 1.6;
+    justify-content: center;
 }
 .about-container .about-opening .opening-title{
     color: #a46877;
@@ -406,15 +408,19 @@ a:link, a:visited {
     width: 100%;
     background: #333;
     margin: auto;
-    text-align: justify;
+    text-align: center;
     padding: 3rem;
 }
 .list-quote img {
-    margin-top: 2rem;
-    box-shadow: none;
     margin: auto;
+    display: inline-block;
+    box-shadow: none;
+    margin: 0.2rem;
+    width: 80px;
+    height: 68px;
 }
 .list-quote p {
+    display: inline-block;
     color: #fff;
     max-width: 60%;
     margin: auto;
@@ -426,10 +432,7 @@ a:link, a:visited {
     color: #a46877;
     margin-bottom: 2rem;
 }
-.list-quote .list-img {
-    width: 60px;
-    height: 50px;
-}
+
 .map {
     margin: 1rem;
 }
@@ -437,7 +440,6 @@ a:link, a:visited {
     display: inline-block;
     text-align: center;
     margin: auto;
-    padding: 2rem 0 0 0;
 }
 .quote-map .address {
     display: inline-block;
