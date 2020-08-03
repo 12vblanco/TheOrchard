@@ -298,11 +298,10 @@ a:link, a:visited {
     justify-content: center;
 }
 .covid-text ul li {
-    color: #333;
+    color: #a46877;
     display: inline-block;
     font-size: 3rem;
     padding: 1rem ;
-    color: #333;
 }
 
 /* Gallery */
