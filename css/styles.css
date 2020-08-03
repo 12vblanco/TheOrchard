@@ -373,12 +373,11 @@ a:link, a:visited {
     margin: auto;
     background: #333;
     padding: 1rem;
-    margin-bottom: 2rem;
 }
 .about-container .bottom p {
     color: #fff;
     max-width: 60%;
-    padding: 1rem;
+    padding: 1rem 0 0 0;
     margin: auto;
 }
 .about-container img {
@@ -459,6 +458,14 @@ a:link, a:visited {
     height: auto;
     padding-top: 8rem;
     /* padding-bottom: 2vw; */
+}
+.quote-map .address p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.quote-map .address a {
+    color: #a46877;
 }
 
 /* Art */
