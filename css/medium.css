@@ -108,12 +108,13 @@
 }
 
 /* Gallery */
-
-.gallery-container {    
-    padding: 0rem;
+.gallery-container {
+    max-width: 780px;
 }
-.items-container {    
-    width: 100%;    
+.items-container {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    justify-content: center;
 }
 
 /* About Us */
