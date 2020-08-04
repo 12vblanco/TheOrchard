@@ -139,17 +139,17 @@
     justify-content: center;
     margin-bottom: 0rem;
 }
-.about-container .bottom {
+#bottom {
     width: 100%;
     margin: auto;
     background: #333;
-    padding: 1rem;
+    padding: 0rem;
     margin-bottom: 0rem;
+    max-width: 100%;
 }
-.about-container .bottom p {
+#bottom p {
     color: #fff;
     max-width: 90%;
-    padding: 1rem;
     margin: auto;
 }
 .about-container img {
@@ -165,10 +165,10 @@
 .about-container .about-opening {
     display: flex;
     text-align: center;
-    padding: 8rem 2rem 8rem 4rem;
+    padding: 4rem 0;
     font-size: 1.2rem;
     line-height: 1.6;
-    justify-content: center;
+    margin: auto;
 }
 .about-container .about-opening .opening-title{
     color: #a46877;
@@ -202,7 +202,7 @@
 .quote-map .address {
     display: inline-block;
     justify-content: center;
-    margin: 2rem;
+    margin: 0rem;
 }
 .quote-map .address p {
     font-size: 1.2rem;
@@ -210,6 +210,9 @@
 }
 .quote-map .address a {
     color: #a46877;
+}
+.quote-map .address {
+    padding: 0;
 }
 
 /* Footer */
