@@ -267,7 +267,8 @@ a:link, a:visited {
 /* covid */
 #covid {
     position: relative;
-    min-height: 80vh;
+    min-height: 88vh;
+    height: 100%;
 }
 .covid-container {
     display: flex;
@@ -309,7 +310,8 @@ a:link, a:visited {
 /* Gallery */
 #gallery {
     position: relative;
-    min-height: 80vh;
+    min-height: 88vh;
+    height: 100%;
 }
 .gallery-container {
     display: flex;
@@ -349,7 +351,8 @@ a:link, a:visited {
 /* About Us */
 #about {
     position: relative;
-    min-height: 80vh;
+    min-height: 88vh;
+    height: 100%;
 }
 .about-container {
     display: flex;
@@ -457,7 +460,8 @@ a:link, a:visited {
 /* Art */
 #art {
     position: relative;
-    min-height: 80vh;
+    min-height: 88vh;
+    height: 100%;
 }
 .art-container {
     position: relative;
@@ -497,7 +501,8 @@ a:link, a:visited {
 /* Reservations */
 #reservations {
     position: relative;
-    min-height: 80vh;
+    min-height: 88vh;
+    height: 100%;
 }
 .reservations-container {
     display: flex;
