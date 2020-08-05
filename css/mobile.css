@@ -221,6 +221,50 @@ display: none;
     width: 300px;
 }
 
+/* Art */
+
+.art-container {
+    padding-top: 4rem;
+}
+.art-header {
+    top: 2rem;
+    padding: 0.6rem;
+}
+.art-header h1 {
+    font-size: 1.1rem;
+}
+.art-header p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.exhibition .exhi-text h1 {
+    font-size: 1.1rem;
+}
+.exhibition .exhi-text p {
+    font-size: 0.9rem;
+}
+.exhibition .exhi-text span {
+    color: #a46877;
+    font-size: 0.9rem;
+}
+.exhibition .exhi-text h1 a {
+    color: #333;
+}
+
+.exhibition .exhi-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.exhibition .exhi-img a {
+    text-align: center;
+}
+.exhibition .exhi-img img {
+    width: 300px;
+    padding: 0.4rem;
+    justify-content: space-between;
+}
+
 /* About Us */
 .about-container {
     padding-top: 4.6rem;
