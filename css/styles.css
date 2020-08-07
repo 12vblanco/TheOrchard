@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
-/* 
-font-family: 'Dancing Script', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Roboto', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -275,6 +272,8 @@ a:link, a:visited {
     position: relative;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: auto;
     width: 100%;
     height: 79.5vh;
     padding-top: 8rem;
@@ -287,7 +286,7 @@ a:link, a:visited {
 .covid-text {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     padding: 5vw;
     text-align: justify;
     /* margin-bottom: 2rem; */
@@ -348,7 +347,6 @@ a:link, a:visited {
 /* Art */
 #art {
     position: relative;
-    min-height: 79.5vh;
     height: 100%;
 }
 .art-container {
@@ -357,6 +355,7 @@ a:link, a:visited {
     justify-content: center;
     width: 100%;
     height: auto;
+    min-height: calc(100% - 228.39px);
     padding-top: 8rem;
     margin: auto;
 }
