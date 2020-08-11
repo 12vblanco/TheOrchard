@@ -51,15 +51,16 @@ body {
 /* showcase */
 .welcome {
     height: 8vh;
-    padding: 1rem;
+    padding: 0.4rem;
 }
 .welcome h1 {
-    font-size: 1.2rem;
-    padding: 1rem 0 0.4rem 0;
+    font-size: 1.1rem;
+    padding: 0.2rem 0 0.2rem 0;
     }
 .welcome p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     max-width: 6000px;
+    padding-bottom: 0.2rem;
 }
 /* Display */
 .display-top {    
