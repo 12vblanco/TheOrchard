@@ -92,6 +92,9 @@ body {
 }
 
 /* covid */
+.covid-container {
+    padding-top: 6rem;
+}
 .covid-img img {
     width: 300px;
     margin-left: 0.6rem;

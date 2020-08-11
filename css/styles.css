@@ -160,6 +160,10 @@ a:link, a:visited {
     width: 100%;
     text-align: center;
     height: 13vh;
+    box-shadow: 0px 4px 10px #000;
+    -moz-box-shadow: 0px 4px 10px #000;
+    -webkit-box-shadow: 0px 4px 10px #000;
+    -khtml-box-shadow: 0px 4px 10px #000;
 }
 .welcome h1 {
     font-size: 1.6rem;
@@ -368,9 +372,6 @@ a:link, a:visited {
     height: 100%;
     margin: auto;
 }
-.art-header h1 {
-    /* margin: 1rem 0 3rem 0; */
-}
 .art-header p {
     margin-bottom: 8rem;
 }
@@ -477,8 +478,8 @@ a:link, a:visited {
     display: flex;
     text-align: center;
     padding: 8rem 2rem;
-    font-size: 1.4rem;
-    line-height: 1.6;
+    font-size: 1.2rem;
+    line-height: 1.7;
     justify-content: center;
 }
 .about-container .about-opening .opening-title{
@@ -521,7 +522,7 @@ a:link, a:visited {
 }
 .quote-map .address {
     display: inline-block;
-    padding: 5rem 2rem 2rem 4rem;
+    padding: 4.8rem 2rem 2rem 4rem;
     text-align: center;
 }
 .quote-map .address p {
