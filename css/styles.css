@@ -414,7 +414,7 @@ a:link, a:visited {
 #reservations {
     position: relative;
     min-height: 79.5vh;
-    height: 100%;
+    height: 79.5vh;
 }
 .reservations-container {
     display: flex;
