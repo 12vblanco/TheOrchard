@@ -219,6 +219,13 @@
     width: 300px;
 }
 
+/* Reservations */
+#reservations {
+    position: relative;
+    min-height: 100%;
+    height: 100vh;
+}
+
 /* Art */
 .art-container {
     padding-top: 4rem;
