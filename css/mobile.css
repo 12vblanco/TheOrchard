@@ -223,7 +223,7 @@
 #reservations {
     position: relative;
     min-height: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 .reservations-container {
     padding-top: 5rem;
