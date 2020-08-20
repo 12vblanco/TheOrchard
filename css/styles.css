@@ -135,7 +135,7 @@ a:link, a:visited {
     border: 2px solid rgb(58, 58, 58);
     border-radius: 5px;
     padding: 0.4rem 0;
-    }
+}
 #navbar .navbar-bottom ul li:hover ul li a {
     color: #fff;
     transition: 0.3s linear;
@@ -266,6 +266,78 @@ a:link, a:visited {
     -webkit-box-shadow: 5px 5px 15px #000;
     -khtml-box-shadow: 5px 5px 15px #000;
 }
+/* dropdown menus body */
+.dropbtn {
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: #a46877;
+    cursor: pointer;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 170px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    border-radius: 12px;
+}
+.display-bottom .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 170px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    border-radius: 12px;
+}
+.dropdown-content a {
+    color: #000;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    /* border: 3px solid #f1f1f1); */
+    transition: 0.3s linear;
+
+}
+.display-bottom .dropdown-content a {
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    /* border: 3px solid #f1f1f1); */
+    transition: 0.3s linear;
+
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    /* border: 3px solid rgb(201, 200, 200); */
+    border-radius: 12px;
+    color: #a46877;
+    transition: 0.3s linear;
+
+}
+.display-bottom .dropdown-content a:hover {
+    background-color: rgb(85, 84, 84);
+    /* border: 3px solid rgb(201, 200, 200); */
+    border-radius: 12px;
+    color: #a46877;
+    transition: 0.3s linear;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.3s linear;
+
+}
+
 
 /* covid */
 #covid {
@@ -423,8 +495,9 @@ a:link, a:visited {
     justify-content: center;
     width: 100%;
     height: auto;
-    padding-top: 8rem;
+    padding-top: 9rem;
 }
+
 
 
 /* About Us */
