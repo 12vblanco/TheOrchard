@@ -30,7 +30,7 @@ a:link, a:visited {
 #navbar .navbar-top {
     display: flex;
     width: 100%;
-    max-width: 1800px;
+    max-width: 1600px;
     width: 100%;
     background: #fff;
     height: 4.6rem;
@@ -150,8 +150,8 @@ a:link, a:visited {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
-    height: 87vh;
+    width: 100%;
+    height: 580px;
 }
 .welcome {
     position: relative;
@@ -177,11 +177,11 @@ a:link, a:visited {
     margin: auto;
 }
 .fade-in {
-    animation: fadeIn ease 8s;
-    -webkit-animation: fadeIn ease 8s;
-    -moz-animation: fadeIn ease 8s;
-    -o-animation: fadeIn ease 8s;
-    -ms-animation: fadeIn ease 8s;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
   }
   @keyframes fadeIn {
     0% {opacity:0;}
@@ -280,23 +280,20 @@ a:link, a:visited {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #f1f1f1;
     min-width: 170px;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
     border-radius: 12px;
-    font-size: 0.9rem;
 }
 .display-bottom .dropdown-content {
     display: none;
     position: absolute;
-    top: -14rem;
-    right: -5.3rem;
-    background-color: rgba(68, 68, 68, 1);
-    min-width: 180px;
+    background-color: #444;
+    min-width: 170px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
-    font-size: 0.9rem;
-
+    border-radius: 12px;
 }
 .dropdown-content a {
     color: #000;
@@ -314,8 +311,7 @@ a:link, a:visited {
     text-decoration: none;
     display: block;
     font-weight: 600;
-    border-radius: 12px;
-    border: 3px solid rgb(41, 41, 41);
+    /* border: 3px solid #f1f1f1); */
     transition: 0.3s linear;
 
 }
@@ -328,7 +324,9 @@ a:link, a:visited {
 
 }
 .display-bottom .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(85, 84, 84);
+    /* border: 3px solid rgb(201, 200, 200); */
+    border-radius: 12px;
     color: #a46877;
     transition: 0.3s linear;
 
@@ -339,6 +337,7 @@ a:link, a:visited {
     transition: 0.3s linear;
 
 }
+
 
 /* covid */
 #covid {
@@ -435,7 +434,7 @@ a:link, a:visited {
     width: 100%;
     height: auto;
     min-height: calc(100% - 228.39px);
-    padding-top: 3.5rem;
+    padding-top: 8rem;
     margin: auto;
 }
 .art-header {
@@ -444,54 +443,32 @@ a:link, a:visited {
     top: 4rem;
     text-align: center;
     width: 100%;
-    padding: 1rem;
-    max-width: 600px;
-    height: 320px;
+    height: 100%;
     margin: auto;
 }
 .art-header p {
-    margin: 2rem 0 2rem 0;
-    text-align: justify;
-}
-.art-header p a {
-    color: #a46877;
+    margin-bottom: 8rem;
 }
 .exhibition {
-    background-color: #333;
     display: block;
     width: 100%;
+    max-width: 1200px;
+    height: auto;
     margin: auto;
     padding: 1rem;
 }
-.exhi-cont {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-}
 .exhibition .exhi-text {
     display: block;
-    color: white;
-    width: 70%;
-    margin: 1rem 0;
-    padding: 1rem 0;
+    width: 100%;
     margin: auto;
+    padding: 1rem 0;
 }
 .exhibition .exhi-text span {
     color: #a46877;
     font-size: 0.9rem;
 }
-.art-header h1{
-    font-size: 1.6;
-    text-transform: capitalize;
-}
-.exhibition .exhi-text h2 {
-    font-size: 1.2rem;
-    text-transform: capitalize;
-}
-
-
-.exhibition .exhi-text h2 a {
-    color: #fff;
+.exhibition .exhi-text h1 a {
+    color: #333;
 }
 
 .exhibition .exhi-img {
@@ -710,7 +687,7 @@ a:link, a:visited {
     font-size: 1.2rem;
 }
 .footer-opening li {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 .footer-address .footer-logo {
