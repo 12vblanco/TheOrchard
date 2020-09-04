@@ -89,6 +89,10 @@ a:link, a:visited {
     height: 2.2rem;
     background: #333;   
     text-align: center;
+    box-shadow: 0px 2px 5px #000;
+    -moz-box-shadow: 0px 2px 5px #000;
+    -webkit-box-shadow: 0px 2px 5px #000;
+    -khtml-box-shadow: 0px 2px 5px #000;
 }
 #navbar .navbar-bottom ul {
     list-style: none;
@@ -219,14 +223,14 @@ a:link, a:visited {
 }
 .display-top .display-text {
     direction: rtl;
-    text-align: justify;
+    text-align: center;
     width: 36%;
     max-width: 900px;
     margin: auto;
     line-height: 1.6;
 }
 .display-bottom .display-text {
-    text-align: left;
+    text-align: center;
     color: white;
     font-weight: 300;
     width: 36%;
