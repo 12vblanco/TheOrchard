@@ -282,8 +282,8 @@
 }
 .exhibition .exhi-img img {
     display: block;
-    width: 300px;
-    max-width: 300px;
+    width: 100%;
+    max-width: 100%;
     margin: 1rem 0;
 }
 .exhibition .exhi-img {
