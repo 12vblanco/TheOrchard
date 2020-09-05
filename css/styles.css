@@ -488,12 +488,13 @@ a:link, a:visited {
 .art-intro {
     display: inline-block;
     width: 100%;
+    min-height: 550px;
     margin: auto;
     text-align: center;
 }
 .art-img {
     display: inline-block;
-    max-width: 500px;
+    max-width: 450px;
     margin: 1.4rem;
     position: relative;
     top: 4rem;
@@ -506,10 +507,10 @@ a:link, a:visited {
     display: inline-block;
     position: relative;
     text-align: center;
-    top: -7rem;
+    top: -5rem;
     height: 340px;
     padding: 2rem;
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
 }
 

@@ -132,6 +132,47 @@ body {
 .art-container {
     min-height: calc(100% - 228.39px);
 }
+.art-intro {
+    display: inline-block;
+    width: 100%;
+    min-height: 450px;
+    margin: auto;
+    text-align: center;
+}
+.art-img {
+    display: inline-block;
+    max-width: 45vw;
+    margin: 1.4rem;
+    top: 2.4rem;
+    position: relative;
+    box-shadow: 0px 2px 5px #000;
+    -moz-box-shadow: 0px 2px 5px #000;
+    -webkit-box-shadow: 0px 2px 5px #000;
+    -khtml-box-shadow: 0px 2px 5px #000;
+}
+.art-header {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: -2rem;
+    padding: 0rem;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 6rem;
+}
+.art-header p {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+.art-header h1 {
+    font-size: 1.2rem;
+}
+.exhibition .exhi-text h2{
+    font-size: 1.2rem;
+}
+.exhibition .exhi-text p{
+    font-size: 0.9rem;
+}
 /* About Us */
 #about {
     position: relative;

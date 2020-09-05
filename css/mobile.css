@@ -231,54 +231,65 @@
 
 /* Art */
 .art-container {
-    padding-top: 4rem;
+    min-height: calc(100% - 228.39px);
+}
+.art-intro {
+    display: inline-block;
+    width: 100%;
+    min-height: 450px;
+    margin: auto;
+    text-align: center;
+}
+.art-img {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    top: 0rem;
+    margin-bottom: 1rem;
+    position: relative;
+    box-shadow: 0px 2px 5px #000;
+    -moz-box-shadow: 0px 2px 5px #000;
+    -webkit-box-shadow: 0px 2px 5px #000;
+    -khtml-box-shadow: 0px 2px 5px #000;
 }
 .art-header {
-    top: 2rem;
-    padding: 0.6rem;
-}
-.art-header h1 {
-    font-size: 1.1rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 0rem;
+    padding: 1rem;
+    max-width: 530px;
+    margin: auto;
+    margin-top: 2.4rem;
+    height: auto;
+
 }
 .art-header p {
     font-size: 0.9rem;
-    margin-bottom: 2rem;
+    margin: 0rem;
+}
+.art-header h1 {
+    font-size: 1.2rem;
 }
 .exhibition .exhi-text {
-    padding: 1.6rem;
-    text-align: center;
+    width: 100%;
 }
-.exhibition .exhi-text h1 {
-    font-size: 1.1rem;
+.exhibition .exhi-text h2{
+    font-size: 1.2rem;
 }
-.exhibition .exhi-text p {
+.exhibition .exhi-text p{
     font-size: 0.9rem;
-}
-.exhibition .exhi-text span {
-    color: #a46877;
-    font-size: 0.9rem;
-}
-.exhibition .exhi-text h1 a {
-    color: #333;
-}
-.exhibition {
-    padding: 0;
-}
-.exhibition .exhi-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.exhibition .exhi-img a {
-    text-align: center;
 }
 .exhibition .exhi-img img {
-    width: 100%;
-    max-width: 400px;
-    padding: 0.6rem;
-    justify-content: space-between;
+    display: block;
+    width: 300px;
+    max-width: 300px;
+    margin: 1rem 0;
 }
-
+.exhibition .exhi-img {
+    display: block;
+    
+}
 /* About Us */
 .about-container {
     padding-top: 4.6rem;
