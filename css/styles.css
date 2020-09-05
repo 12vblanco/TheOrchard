@@ -446,17 +446,6 @@ a:link, a:visited {
     padding-top: 3.5rem;
     margin: auto;
 }
-.art-header {
-    display: block;
-    position: relative;
-    top: 4rem;
-    text-align: center;
-    width: 100%;
-    padding: 1rem;
-    max-width: 600px;
-    height: 320px;
-    margin: auto;
-}
 .art-header p {
     margin: 2rem 0 2rem 0;
     text-align: justify;
@@ -489,14 +478,40 @@ a:link, a:visited {
     font-size: 0.9rem;
 }
 .art-header h1{
-    font-size: 1.6;
+    font-size: 1.4;
     text-transform: capitalize;
 }
 .exhibition .exhi-text h2 {
     font-size: 1.2rem;
     text-transform: capitalize;
 }
-
+.art-intro {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.art-img {
+    display: inline-block;
+    max-width: 500px;
+    margin: 1.4rem;
+    position: relative;
+    top: 4rem;
+    box-shadow: 0px 2px 5px #000;
+    -moz-box-shadow: 0px 2px 5px #000;
+    -webkit-box-shadow: 0px 2px 5px #000;
+    -khtml-box-shadow: 0px 2px 5px #000;
+}
+.art-header {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: -7rem;
+    height: 340px;
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+}
 
 .exhibition .exhi-text h2 a {
     color: #fff;
