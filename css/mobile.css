@@ -106,10 +106,10 @@
     margin-bottom: 0rem;
     padding: 1rem;
 }
-.display-top .display-text h1 {
+.display-top .display-text h2 {
     font-weight: 400;
 }
-.display-bottom .display-text h1 {
+.display-bottom .display-text h2 {
     font-weight: 300;
     text-align: center;
 }
