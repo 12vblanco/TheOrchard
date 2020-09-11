@@ -219,10 +219,10 @@ html, body{
 .display-text p{
     text-align: justify;
 }
-.display-top .display-text h1{
+.display-top .display-text h2{
     font-weight: 400;
 }
-.display-bottom .display-text h1{
+.display-bottom .display-text h2{
     font-weight: 300;
     text-align: justify;
 }
