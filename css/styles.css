@@ -182,6 +182,7 @@ html, body{
   /* showcase */
   .display-top{
     display: flex;
+    justify-content: center;
     background-color: #fff;
     width: 100vw;
     height: 60vh;
@@ -202,9 +203,7 @@ html, body{
 }
 .display-top .display-text{
     direction: rtl;
-    text-align: center;
     font-size: 0.9rem;
-    text-align: justify;
     max-width: 500px;
     margin: auto;
     line-height: 1.6;
@@ -215,7 +214,6 @@ html, body{
     font-weight: 300;
     width: 40%;
     max-width: 500px;
-    margin: auto;
     line-height: 1.6;
 }
 .display-text p{
@@ -234,7 +232,7 @@ html, body{
     margin-left: 1rem;
 }
 .display-bottom .display-img{
-    text-align: right;
+    /* text-align: right; */
     margin: auto;
     margin-right: 1rem;
 }
@@ -488,6 +486,8 @@ html, body{
     max-width: 850px;
     margin: auto;
     padding-top: 0.6rem;
+    font-weight: 500;
+
 }
 .about-container img{
     display: flex;
@@ -538,7 +538,7 @@ html, body{
     margin: auto;
     padding-top: 0.6rem;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 .list-quote a {    
      margin: auto;
@@ -627,7 +627,7 @@ html, body{
 }
 .footer-address p, .footer-address a{
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 .footer-address h4{
     font-size: 11px;
