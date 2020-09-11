@@ -182,7 +182,12 @@
 }
 /* Reservations */
 .reservations-container {
-    padding-top: 5rem;
+    padding-top: 4rem;
+}
+#reservations {
+    position: relative;
+    min-height: auto;
+    height: 82vh;
 }
 /* Art */
 .art-header{
