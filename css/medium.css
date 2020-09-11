@@ -54,7 +54,7 @@
 }
   /* showcase */
   .display-top{
-    height: 50vh;
+    height: auto;
 }
 .display-bottom{
     height: 50vh;
@@ -68,6 +68,16 @@
     margin: auto;
     line-height: 1.6;
 }
+.about-container img{
+    width: 440px;
+    height: inherit;
+}
+.about-container .about-opening{
+    padding: 2rem 2rem 0 2rem;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    justify-content: center;
+}
 .display-bottom .display-text{
     font-size: 0.8rem;
 }
@@ -75,9 +85,15 @@
     width: 80px;
     height: 68px;
 }
+.address p{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.address h1{
+    font-size: 1rem;
+}
 .list-quote p {
     display: inline-block;
-    color: #fff;
     max-width: 80%;
     margin: auto;
     padding-top: 0.6rem;
@@ -96,16 +112,7 @@
 .covid-text ul li {
     font-size: 1.4rem;
 }
-.about-container img{
-    width: 440px;
-    height: inherit;
-}
-.about-container .about-opening{
-    padding: 8rem 2rem;
-    font-size: 1.2rem;
-    line-height: 1.7;
-    justify-content: center;
-}
+
 /* footer */
 .footer-social .fa-facebook-f, .footer-social .fa-instagram,
 .footer-social .fa-twitter, .footer-social .fa-tripadvisor{

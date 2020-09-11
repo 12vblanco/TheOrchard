@@ -278,7 +278,6 @@
 .list-quote{    
     display: inline-block;
     width: 100%;
-    background: #333;
     margin: auto;
     text-align: center;
     padding: 1rem 0 2rem 0;
@@ -294,7 +293,6 @@
 }
 .list-quote p {
     display: inline-block;
-    color: #fff;
     max-width: 90%;
     margin: auto;
     padding-top: 0.6rem;

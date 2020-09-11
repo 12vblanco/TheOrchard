@@ -25,6 +25,7 @@ html, body{
 .current{
     border-bottom: 1px solid #a46877;
 }
+/* Navbar */
 #navbar{
     width: 100%;
     height: 110px;
@@ -193,7 +194,7 @@ html, body{
     display: flex;
     background-color: #333;
     width: 100vw;
-    max-width: ;
+    max-width: 100vw;
     height: 60vh;
     text-align: center;
     justify-content: center;
@@ -292,12 +293,12 @@ html, body{
     font-size: 1.6rem;
     padding: 1rem ;
 }
-/* Covid19 */
+/* Covid19
 .covid-container{
     width: 80%;
     text-align: center;
     margin: auto;
-}
+} */
 /* Reservations */
 #reservations {
     position: relative;
@@ -478,15 +479,11 @@ html, body{
 #bottom{
     width: 100%;
     margin: auto;
-    background: #333;
+    background: #fff;
     padding: 1rem;
-    box-shadow: 0px 2px 5px #000;
-    -moz-box-shadow: 0px 2px 5px #000;
-    -webkit-box-shadow: 0px 2px 5px #000;
-    -khtml-box-shadow: 0px 2px 5px #000;
 }
 #bottom p{
-    color: #fff;
+    color: #333;
     width: 100%;
     max-width: 850px;
     margin: auto;
@@ -495,7 +492,7 @@ html, body{
 .about-container img{
     display: flex;
     width: 640px;
-    height: auto;
+    height: inherit;
     margin: auto;
     margin: 1rem;
     box-shadow: 0px 2px 5px #000;
@@ -506,7 +503,7 @@ html, body{
 .about-container .about-opening{
     display: flex;
     text-align: center;
-    padding: 12rem 2rem;
+    padding: 4rem 2rem;
     font-size: 1.2rem;
     line-height: 1.7;
     justify-content: center;
@@ -521,6 +518,10 @@ html, body{
     margin: auto;
     text-align: center;
     padding: 1rem 0 2rem 0;
+    box-shadow: 0px 2px 5px #000;
+    -moz-box-shadow: 0px 2px 5px #000;
+    -webkit-box-shadow: 0px 2px 5px #000;
+    -khtml-box-shadow: 0px 2px 5px #000;
 }
 .list-quote img{
     margin: auto;
@@ -537,6 +538,7 @@ html, body{
     margin: auto;
     padding-top: 0.6rem;
     font-size: 1rem;
+    font-weight: 700;
 }
 .list-quote a {    
      margin: auto;
@@ -562,6 +564,9 @@ html, body{
 }
 .quote-map .address a {
     color: #a46877;
+}
+.address p{
+    font-weight: 700;
 }
 /* footer */
 #footer{
