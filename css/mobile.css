@@ -256,8 +256,11 @@
     height: 100%;
     margin: auto;
 }
+#bottom{
+    padding-top: 0;
+}
 #bottom p{
-    color: #fff;
+    color: #333;
     width: 100%;
     max-width: 850px;
     margin: auto;
@@ -275,7 +278,7 @@
 .about-container .about-opening{
     display: flex;
     text-align: center;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 2rem ;
     font-size: 1rem;
     line-height: 1.4;
     justify-content: center;

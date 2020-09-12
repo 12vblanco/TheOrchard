@@ -221,10 +221,11 @@ html, body{
 }
 .display-top .display-text h2{
     font-weight: 400;
+    text-align: center;
 }
 .display-bottom .display-text h2{
     font-weight: 300;
-    text-align: justify;
+    text-align: center;
 }
 .display-top .display-img{
     text-align: left;
