@@ -217,7 +217,7 @@ html, body{
     line-height: 1.6;
 }
 .display-text p{
-    text-align: justify;
+    text-align: center;
 }
 .display-top .display-text h2{
     font-weight: 400;
