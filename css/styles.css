@@ -252,20 +252,23 @@ html, body{
 }
 .covid-container {
     display: flex;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
     width: 80%;
-    height: 79.5vh;
+    max-width: 1160px;
+    height: auto;
     padding-top: 8rem;
 }
-.covid-img img {
+.covid-img {
     display: flex;
-    width: 30vw;
+    margin: 2rem;
+}
+.covid-img img {
+    width: 26vw;
     max-width: 340px;
     min-width: 280px;
     margin: auto;
-    margin: 2rem 0rem 2rem 4rem;
     box-shadow: 0px 2px 5px #000;
     -moz-box-shadow: 0px 2px 5px #000;
     -webkit-box-shadow: 0px 2px 5px #000;
@@ -274,9 +277,11 @@ html, body{
 .covid-text {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    padding: 4vw 0 4vw 10vw;
-    text-align: justify;
+    width: 800px;
+    min-width: 300px;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
     /* margin-bottom: 2rem; */
 }
 .covid-text ul {
