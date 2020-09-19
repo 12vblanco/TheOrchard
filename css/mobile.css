@@ -153,14 +153,17 @@
 }
 .covid-img{
     display: flex;
-    justify-content: center;
-    text-align: center;
     margin: auto;
-    justify-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 2rem;
 }
 .covid-img img {
-    display: block;
-    margin: 1rem;
+    display: flex;
+    width: 40vw;
+    min-width: 140px;
+    max-width: 320px;
+    margin: 0.2rem;
 }
 .covid-text {
     display: inline-block;
@@ -382,6 +385,7 @@
 }
 .footer-opening li{
     font-size: 0.8rem;
+    max-width: 100%;
 }
 .footer-address .footer-logo img{
     width: 220px;
