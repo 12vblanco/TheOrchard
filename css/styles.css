@@ -56,7 +56,8 @@ html, body{
     height: 74px;
     display: inline-block;
     position: relative;
-    padding-left: 4.4vw;
+    left: 6%;
+    padding-left: 0;
     padding-top: 2rem;
 }
 .navbar-text ul li{
