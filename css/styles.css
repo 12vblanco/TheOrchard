@@ -520,6 +520,9 @@ html, body{
     line-height: 1.7;
     justify-content: center;
 }
+.opening-title h4{
+    padding-top: 3rem;
+}
 .about-container .about-opening .opening-title{
     color: #a46877;
 }
