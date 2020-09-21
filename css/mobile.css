@@ -51,6 +51,14 @@
     height: 84vh;
 }
 /* Showcase */
+.background{
+    background-image: url("../images/showcase-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: auto;
+    height: 70vh;
+}
 .welcome{
     width: 100%;
 }
