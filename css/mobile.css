@@ -69,7 +69,7 @@
 .welcome p{
     font-size: 0.8rem;
     max-width: 100%;
-    padding: 0.4rem;
+    padding: 0.4rem 0.4rem 0.6rem 0.4rem;
 }
  /* Display */
 .display-top {
