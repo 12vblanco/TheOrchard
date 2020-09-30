@@ -98,7 +98,7 @@
     margin: auto;
     line-height: 1.4;
     margin-bottom: 0rem;
-    padding: 1rem;
+    padding: 1rem 0.4rem;
 }
 .display-text p{
     text-align: center;
@@ -112,7 +112,7 @@
     margin: auto;
     line-height: 1.4;
     margin-bottom: 0rem;
-    padding: 1rem;
+    padding: 1rem 0.4rem;
 }
 .display-top .display-text h2 {
     font-weight: 400;
