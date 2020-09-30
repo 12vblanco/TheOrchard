@@ -63,13 +63,13 @@
     width: 100%;
 }
 .welcome h2{
-    font-size: 0.9rem;
-    padding: 0.6rem 0 0.2rem 0;
+    font-size: 1rem;
+    padding: 0.6rem 0.2rem 0.2rem 0.2rem;
     }
 .welcome p{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     max-width: 100%;
-    padding-bottom: 0.6rem;
+    padding: 0.4rem;
 }
  /* Display */
 .display-top {
