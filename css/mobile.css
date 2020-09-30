@@ -255,6 +255,9 @@
     height: 100%;
     margin: auto;
 }
+.opening-title h4{
+    padding-top: 2rem;
+}
 #bottom{
     padding: 0.4rem 0.4rem 0.2rem 0.4rem;
 }
@@ -263,7 +266,7 @@
     width: 100%;
     max-width: 850px;
     margin: auto;
-    padding-top: 0.6rem;
+    padding-top: 2rem;
     text-align: center;
     font-size: 1rem;
 }
@@ -306,7 +309,7 @@
     font-size: 0.8rem;
 }
 .list-quote a {    
-     margin: auto;
+    margin: auto;
     color: #a46877;
     margin-bottom: 2rem;
 }
