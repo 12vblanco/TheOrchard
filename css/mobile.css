@@ -52,7 +52,7 @@
 } */
 /* Showcase */
 .background{
-    background-image: url("../images/showcase-background-s.jpg");
+    background-image: url("../images/showcase-background-s2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -255,6 +255,7 @@
     height: 100%;
     margin: auto;
 }
+
 .opening-title h4{
     padding-top: 2rem;
 }
