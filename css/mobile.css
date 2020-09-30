@@ -204,13 +204,10 @@
     height: auto;
 }
 .art-header p{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0rem;
     text-align: center;
     padding: 1rem 0;
-}
-.art-header h1{
-    font-size: 1rem;
 }
 .art-img{
     display: block;
@@ -228,7 +225,7 @@
     text-align: center;
 }
 .exhibition .exhi-text p{
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
 }
 .exhibition .exhi-img img{
@@ -259,7 +256,7 @@
     margin: auto;
 }
 #bottom{
-    padding-top: 0;
+    padding: 0.4rem 0.4rem 0.2rem 0.4rem;
 }
 #bottom p{
     color: #333;
@@ -268,7 +265,7 @@
     margin: auto;
     padding-top: 0.6rem;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .about-container img{
     display: inline-block;
@@ -383,7 +380,7 @@
     padding-top: 1.2rem;
 }
 .footer-opening li{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     max-width: 100%;
 }
 .footer-address .footer-logo img{
@@ -391,5 +388,5 @@
     padding-top: 2rem;
 }
 .footer-address p, .footer-address a{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
