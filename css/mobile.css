@@ -77,7 +77,6 @@
     width: 100%;
     height: auto;
     margin: auto;
-    text-align: center;
     padding: 0;
 }
 .display-bottom {
@@ -86,12 +85,10 @@
     width: 100%;
     height: auto;
     margin: auto;
-    text-align: center;
     padding: 0;
 }
 .display-top .display-text {
     display: inline-block;
-    text-align: justify;
     direction: ltr;
     width: 100%;
     max-width: 100%;
@@ -101,13 +98,12 @@
     padding: 1rem 0.4rem;
 }
 .display-text p{
-    text-align: center;
+    text-align: justify;
     max-width: 450px;
     margin: auto;
 }
 .display-bottom .display-text {
     display: inline-block;
-    text-align: justify;
     width: 100%;
     margin: auto;
     line-height: 1.4;
