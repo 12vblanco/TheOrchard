@@ -297,11 +297,7 @@ html, body{
     text-align: center;
     justify-content: center;
 }
-.covid-text ul li {
-    color: #a46877;
-    font-size: 1.6rem;
-    padding: 1rem ;
-}
+
 /* Covid19
 .covid-container{
     width: 80%;

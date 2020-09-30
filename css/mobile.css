@@ -185,12 +185,7 @@
     text-align: center;
     justify-content: center;
 }
-.covid-text ul li {
-    color: #a46877;
-    display: inline-block;
-    font-size: 1.2rem;
-    padding: 1rem ;
-}
+
 /* Reservations */
 .reservations-container {
     padding-top: 4rem;
