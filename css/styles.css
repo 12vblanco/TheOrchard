@@ -133,10 +133,10 @@ html, body{
 }
 /* Showcase */
 .background{
-    background-image: url("../images/showcase-background.jpg");
+    background-image: url("../images/showcase-background3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     width: 100vw;
     height: 80vh;
 }
