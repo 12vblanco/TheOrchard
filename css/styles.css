@@ -629,10 +629,10 @@ html, body{
 .footer-opening .opening-title{
     color: #A46877;
     font-size: 1.1rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 .footer-opening li{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 .footer-address .footer-logo img{

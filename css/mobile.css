@@ -362,11 +362,12 @@
 }
 .footer-social .fa-facebook-f, .footer-social .fa-instagram,
 .footer-social .fa-twitter, .footer-social .fa-tripadvisor{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 .follow{
     font-family: 'Dancing Script', cursive;
     font-size: 2.2rem;
+    margin-bottom: 1.4rem;
 }
 .footer-links{
     padding-top: 1rem;
@@ -378,13 +379,18 @@
     line-height: 2.4;
     padding-top: 1.2rem;
 }
+
+.footer-links li:last-child, .footer-opening li:last-child {
+    margin-bottom: 1.4rem;
+}
+
 .footer-opening .opening-title{
     color: #A46877;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-top: 1.2rem;
 }
 .footer-opening li{
-    font-size: 0.9rem;
+    font-size: 1rem;
     max-width: 100%;
 }
 .footer-address .footer-logo img{
