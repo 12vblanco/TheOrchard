@@ -517,9 +517,9 @@ html, body{
 .about-container .about-opening{
     display: flex;
     text-align: center;
-    padding: 6rem 2rem;
+    padding: 7rem 2rem 4rem 2rem;
     font-size: 1.2rem;
-    line-height: 1.7;
+    line-height: 1.4;
     justify-content: center;
 }
 .opening-title h4{
