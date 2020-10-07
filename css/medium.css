@@ -72,6 +72,10 @@
     line-height: 1.6;
 }
 
+.display-bottom .display-text {
+    font-size: 1rem;
+}
+
 /* About */
 .about-container img{
     width: 440px;
