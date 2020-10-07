@@ -151,6 +151,7 @@
     min-width: 140px;
     max-width: 320px;
     margin: 0.2rem;
+    box-shadow: none;
 }
 .covid-text {
     display: inline-block;
@@ -158,6 +159,11 @@
     text-align: center;
     width: 100%;
 }
+
+/* Gallery */
+    .gallery-item {
+        box-shadow: none;
+    }
 
 /* Reservations */
 .reservations-container {
