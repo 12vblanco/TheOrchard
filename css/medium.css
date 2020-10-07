@@ -13,7 +13,7 @@
 .navbar-text p{
     padding-left: 0rem;
     padding-top: 0rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 .navbar-text ul li{
     padding-right: 0.7rem;
@@ -71,6 +71,8 @@
     margin: auto;
     line-height: 1.6;
 }
+
+/* About */
 .about-container img{
     width: 440px;
     height: inherit;
@@ -81,20 +83,12 @@
     line-height: 1.7;
     justify-content: center;
 }
-.display-bottom .display-text{
-    font-size: 1rem;
-}
-.about-container .list-img{
-    width: 80px;
-    height: 68px;
-}
+
 .address p{
     font-weight: 700;
     font-size: 0.9rem;
 }
-.address h1{
-    font-size: 1rem;
-}
+
 .list-quote p {
     display: inline-block;
     max-width: 80%;
@@ -112,6 +106,15 @@
     width: 80%;
     padding: 1rem 0 0 0;
 }
+
+/* Art */
+.art-img{
+    display: inline-block;
+    max-width: 450px;
+    margin: 1.4rem;
+    position: relative;
+    top: -1rem;
+
 
 /* footer */
 .footer-social .fa-facebook-f, .footer-social .fa-instagram,
