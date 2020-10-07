@@ -119,10 +119,10 @@
     position: relative;
     top: -1rem;
 
-
+}
 /* footer */
 .footer-social .fa-facebook-f, .footer-social .fa-instagram,
-.footer-social .fa-twitter, .footer-social .fa-tripadvisor{
+.footer-social .fa-twitter, .footer-social .fa-tripadvisor {
     font-size: 1.5rem;
 }
 .follow{

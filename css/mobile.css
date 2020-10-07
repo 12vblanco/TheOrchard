@@ -184,23 +184,27 @@
     width: 100%;
     max-width: 460px;
     margin-top: 0rem;
-    height: 400px;
+    height: auto;
 }
 .art-container {
     padding-top: 2rem;
 }
-.art-header p{
+.art-header p {
+    display: block;
     font-size: 1rem;
     margin: 0rem;
     text-align: center;
     padding: 1rem 0;
+    margin-bottom: 1rem;
 }
 .art-img{
     display: block;
     margin: auto;
     width: 100%;
     position: relative;
-    top: -1rem;
+    top: 1rem;
+    padding: 1rem;
+    box-shadow: none;
     margin-bottom: 1rem;
 }
 .exhibition .exhi-text{
@@ -217,7 +221,7 @@
 .exhibition .exhi-img img{
     display: block;
     width: 100%;
-    max-width: 360px;
+    max-width: 460px;
     margin: auto;
     top: 0rem;
     margin-bottom: 1rem;
@@ -233,6 +237,7 @@
     margin: auto;
     padding-top: 3rem;
 }
+
 .about-container .top{
     display: inline-block;
     justify-content: center;
@@ -257,9 +262,11 @@
 .about-container img{
     display: inline-block;
     width: 100%;
-    max-width: 450px;
+    max-width: 460px;
     margin: 1.4rem 0;
     position: relative;
+    box-shadow: none;
+
 }
 .about-container .about-opening{
     display: flex;
