@@ -124,13 +124,36 @@ html, body{
 }
 /* Showcase */
 .background{
-    background-image: url("../images/showcase-background-offer.jpg");
+    background-image: url("../images/showcase-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     width: 100vw;
     height: 80vh;
 }
+
+.newcovid {
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+    z-index: 3;
+}
+
+.btn {
+    position: absolute;
+    top: 35rem;
+    left: 36rem;
+    z-index: 3;
+    width: auto;
+    background-color: #000;
+    border-radius: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: 700;
+    color: #a46877;
+}
+
 .welcome{
     width: 100vw;
     background-color: #333;

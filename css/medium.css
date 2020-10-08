@@ -76,6 +76,32 @@
     font-size: 1rem;
 }
 
+.newcovid {
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+    z-index: 3;
+}
+
+.newcovid img {
+    width: 680px;
+}
+
+.btn {
+    position: absolute;
+    top: 29rem;
+    left: 26.5rem;
+    z-index: 3;
+    width: auto;
+    background-color: #000;
+    border-radius: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: 600;
+    color: #a46877;
+}
+
 /* About */
 .about-container img{
     width: 440px;
