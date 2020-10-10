@@ -139,7 +139,7 @@ html, body{
     height: auto;
     padding-top: 8rem;
     margin: auto;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .main-page_takeaway {   
