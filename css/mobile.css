@@ -393,3 +393,35 @@
 .footer-address p, .footer-address a{
     font-size: 0.9rem;
 }
+/* COVIDUPDATE */
+.covidupdate {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.main-page_takeaway {   
+    color: #a46877;
+}
+
+.covidupdate-img {
+        display: flex;
+        width: 90%;
+        min-width: 340px;
+        height: inherit;
+        margin: auto;
+        margin: 1rem;
+        box-shadow: none
+    }
+
+
+.covidupdate-text {
+    display: block;
+    text-align: center;
+    padding: 2rem 2rem 4rem 2rem;
+    font-size: 1rem;
+    line-height: 1.2;
+}

@@ -132,26 +132,44 @@ html, body{
     height: 80vh;
 }
 
-.newcovid {
-    position: absolute;
-    top: 10rem;
-    left: 2rem;
-    z-index: 3;
+/* COVIDUPDATE */
+.covidupdate {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    margin: auto;
+    justify-content: space-around;
 }
 
-.btn {
-    position: absolute;
-    top: 35rem;
-    left: 36rem;
-    z-index: 3;
-    width: auto;
-    background-color: #000;
-    border-radius: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 1rem;
-    font-weight: 700;
+.main-page_takeaway {   
     color: #a46877;
+}
+
+.covidupdate-img {
+        display: flex;
+        width: 640px;
+        height: inherit;
+        margin: auto;
+        margin: 1rem;
+        box-shadow: 0px 2px 5px #000;
+        -moz-box-shadow: 0px 2px 5px #000;
+        -webkit-box-shadow: 0px 2px 5px #000;
+        -khtml-box-shadow: 0px 2px 5px #000;
+    }
+
+
+.covidupdate-text {
+    display: flex;
+    text-align: center;
+    padding: 7rem 2rem 4rem 2rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+
+.covidupdate-text p {
+
 }
 
 .welcome{

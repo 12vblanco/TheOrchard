@@ -170,3 +170,27 @@
 .footer-address p, .footer-address a{
     font-size: 0.9rem;
 }
+
+
+/* COVIDUPDATE */
+
+.covidupdate-img {
+        display: flex;
+        width: 440px;
+        height: inherit;
+        margin: auto;
+        margin: 1rem;
+        box-shadow: 0px 2px 5px #000;
+        -moz-box-shadow: 0px 2px 5px #000;
+        -webkit-box-shadow: 0px 2px 5px #000;
+        -khtml-box-shadow: 0px 2px 5px #000;
+    }
+
+
+.covidupdate-text {
+    display: flex;
+    text-align: center;
+    padding: 7rem 2rem 4rem 2rem;
+    font-size: 1rem;
+    line-height: 1.2;
+}
