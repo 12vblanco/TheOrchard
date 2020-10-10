@@ -172,6 +172,15 @@ html, body{
 
 }
 
+.display-text b {
+    text-decoration: line-through;
+}
+
+.navbar-text p {
+    text-decoration: line-through;
+
+}
+
 .welcome{
     width: 100vw;
     background-color: #333;
@@ -259,6 +268,7 @@ html, body{
 .display-text p{
     text-align: center;
 }
+
 
 .display-top .display-text h2{
     font-weight: 400;
