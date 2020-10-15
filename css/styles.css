@@ -166,12 +166,32 @@ html, body{
     font-size: 1.4rem;
     line-height: 1.2;
 }
-
-
-.covidupdate-text p {
-
-}
-
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    position: relative;
+    top: 2rem;
+    right: -1.1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 .display-text b {
     text-decoration: line-through;
 }
