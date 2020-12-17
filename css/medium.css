@@ -44,6 +44,16 @@
     padding: 0.4rem 0;
     text-align: center;
 }
+.festive__opening {
+    margin: 1rem;
+}
+/* festive */
+.festive__opening img{
+    width: 60%;
+    
+}
+
+
 /* Welcome */
 .background{
     height: 68vh;

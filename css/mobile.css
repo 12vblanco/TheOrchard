@@ -424,4 +424,11 @@
     font-size: 1rem;
     line-height: 1.2;
 }
-
+/* festive */
+.festive__opening {
+    margin: 0rem;
+}
+.festive__opening img{
+    width: 90%;
+    
+}

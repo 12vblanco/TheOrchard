@@ -148,9 +148,8 @@ html, body{
 
 .covidupdate-img {
         display: flex;
-        max-width: 640px;
-        width: 80wv;
-        height: 100%;
+        max-width: 40rem;
+        max-height: 30rem;
         margin: auto;
         margin: 1rem;
         box-shadow: 0px 2px 5px #000;
@@ -166,6 +165,15 @@ html, body{
     padding: 3rem 2rem 4rem 2rem;
     font-size: 1.2rem;
     line-height: 1.7;
+}
+
+.festive__opening {
+    text-align: center;
+    margin: 2rem;
+}
+.festive__opening img{
+    width: 35%;
+    
 }
 
 .welcome{
