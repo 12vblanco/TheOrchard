@@ -426,9 +426,11 @@
 }
 /* festive */
 .festive__opening {
-    margin: 0rem;
+    margin: 0 auto;
 }
 .festive__opening img{
     width: 90%;
-    
+    text-align: center;
+    margin-left: 2rem;
+
 }
