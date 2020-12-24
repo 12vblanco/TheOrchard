@@ -173,9 +173,12 @@
 
 
 .covidupdate-text {
-    display: flex;
-    text-align: center;
-    padding: 7rem 2rem 4rem 2rem;
-    font-size: 1rem;
-    line-height: 1.2;
+   
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 1.6rem;
+   
 }
