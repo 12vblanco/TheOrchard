@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -579,14 +579,15 @@ html, body{
 .about-container .about-opening{
     display: flex;
     text-align: center;
-    padding: 2rem 2rem 1rem 6rem;
+    padding: 5rem 2rem 1rem 6rem;
     font-size: 1.1rem;
-    line-height: 1.4;
+    line-height: 1;
     justify-content: center;
 }
 
 .about-container .about-opening .opening-title{
     color: #a46877;
+    margin-top: 3rem;
 }
 .list-quote{    
     display: inline-block;
@@ -694,4 +695,4 @@ html, body{
 }
 #footer .nav-phone a{
     color: #a46877;
-}
+} */
