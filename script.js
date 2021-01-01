@@ -42,7 +42,3 @@ const sunday2 = document.querySelector('.opening__sunday2');
 sunday2.innerText = 'Sunday Currently Closed';
 
 
-// FOOD SERVED
-const foodServed = document.querySelector('.navbar-text > p');
-foodServed.innerText = 'We Will Re-Open as Soon as possible!';
-

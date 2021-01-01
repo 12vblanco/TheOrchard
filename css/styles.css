@@ -44,6 +44,10 @@ html, body{
 .menu-wrap{
     display: none;
 }
+.navbar-text p {
+    display: none;
+
+}
 .navbar-text{
     width: 61%;
     height: 74px;
