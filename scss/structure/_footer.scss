@@ -1,0 +1,145 @@
+.footer {
+  min-height: 40rem;
+  padding: 12rem 2rem 2rem 2rem;
+  width: 100%;
+  height: auto;
+  background-color: accent;
+  background-image: linear-gradient(
+      to right top,
+      rgba($color-black, 0.9),
+      rgba($color-black, 0.8)
+    ),
+    url(../images/light.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+  @include respond(tp) {
+    padding: 14rem 1rem 1rem 1rem;
+    min-height: 46rem;
+    clip-path: polygon(0 3%, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 3%, 100% 0, 100% 100%, 0% 100%);
+  }
+  @include respond(ph) {
+    padding: 5rem 1rem 1rem 1rem;
+    clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .footer__container {
+    max-width: 120rem;
+    margin: 0 auto;
+    @include flexCenter;
+    justify-content: space-between;
+    vertical-align: middle;
+    text-align: center;
+    @include respond(ph) {
+      flex-direction: column;
+      height: auto;
+    }
+    &-social {
+      @include flexCenter;
+      flex-direction: column;
+      vertical-align: middle;
+      text-align: center;
+      @include respond(ph) {
+        font-size: 4rem;
+        margin: 0 4rem;
+        vertical-align: bottom;
+        margin-top: 4rem;
+      }
+      li {
+        display: inline-block;
+        margin: 0 2rem;
+        font-size: 3rem;
+        @include respond(tp) {
+          font-size: 3rem;
+          margin: 0 2rem;
+        }
+        @include respond(ph) {
+          font-size: 3.6rem;
+          margin: 0 3.6rem;
+        }
+        &:hover {
+          color: $color-accent;
+        }
+      }
+      &--follow {
+        font-family: $font-tertiary;
+        font-size: 5rem;
+        @include respond(tp) {
+          font-size: 4rem;
+        }
+        @include respond(ph) {
+          font-size: 8rem;
+        }
+      }
+    }
+
+    &-opening {
+      margin-top: -3rem;
+      font-size: 1.6rem;
+      line-height: 1.8;
+      text-align: center;
+      letter-spacing: 0.15rem;
+      @include respond(tp) {
+        letter-spacing: 0;
+        margin-top: -1rem;
+        font-size: 1.5rem;
+      }
+      @include respond(ph) {
+        font-size: 3rem;
+      }
+      h3 {
+        color: $color-accent;
+        font-size: 2rem;
+        font-weight: 900;
+        border-radius: 25px;
+        @include respond(ph) {
+          margin-top: 3rem;
+          font-size: 3.4rem;
+        }
+      }
+    }
+    &-address {
+      margin-top: -4rem;
+      padding-left: 2rem;
+      @include respond(ph) {
+        padding: 2rem 0 4rem 0;
+      }
+      &--logo img {
+        max-width: 26rem;
+        @include respond(tp) {
+          font-size: 3rem;
+        }
+        @include respond(ph) {
+          font-size: 6rem;
+          margin-top: 6.8rem;
+        }
+      }
+      p {
+        font-size: 2rem;
+        text-align: center;
+        @include respond(tp) {
+          font-size: 1.5rem;
+        }
+        @include respond(ph) {
+          font-size: 2.5rem;
+        }
+        a:hover {
+          color: $color-accent;
+        }
+      }
+      h4 {
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 12px;
+        font-weight: 300;
+        @include respond(ph) {
+          // font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin header {
+  width: 100%;
+  height: 90vh;
+  min-height: 72rem;
+  background-color: black;
+  background-image: linear-gradient(
+      to right top,
+      rgba($color-black, 0.15),
+      rgba($color-black, 0.15)
+    ),
+    url(../images/index__background.jpg);
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+  overflow: hidden;
+  @include respond(dsk) {
+    min-height: 90rem;
+  }
+  @include respond(tp) {
+    min-height: 98rem;
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 98%, 0% 100%);
+  }
+  @include respond(ph) {
+    background-image: linear-gradient(
+        to right top,
+        rgba($color-black, 0.3),
+        rgba($color-black, 0.2)
+      ),
+      url(../images/index__background-1x.jpg);
+    background-position: left;
+    min-height: 146rem;
+  }
+}
+@mixin header__secondary {
+  width: 100%;
+
+  position: relative;
+  overflow: hidden;
+  color: $color-white;
+
+  @include respond(tp) {
+    min-height: 98rem;
+  }
+  @include respond(ph) {
+    // min-height: 122rem;
+  }
+}
+@mixin mainBody {
+  @include flexCenter;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  min-height: 58rem;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to right top,
+    rgba($color-black, 0.06),
+    rgba($color-black, 0.08)
+  );
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+  clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+  -webkit-clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+  @include respond(tp) {
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+    -webkit-clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+  }
+  @include respond(ph) {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    clip-path: polygon(0 2%, 100% 0, 100% 98%, 0% 100%);
+    -webkit-clip-path: polygon(0 2%, 100% 0, 100% 98%, 0% 100%);
+  }
+}
+@mixin mainBody-text {
+  @include flexCenter;
+  vertical-align: middle;
+  text-align: left;
+  color: $color-black;
+  max-width: 58rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  @include respond(dsk) {
+    font-size: 2rem;
+    padding: 0 2rem;
+  }
+  @include respond(tp) {
+    font-size: 2rem;
+  }
+  @include respond(ph) {
+    padding-top: 3rem;
+    font-size: 2.8rem;
+    max-width: 100%;
+    text-align: justify;
+    line-height: 4.4rem;
+  }
+}
+@mixin mainBody-img {
+  @include flexCenter;
+  vertical-align: middle;
+  align-items: flex-start;
+  @include respond(tp) {
+    align-items: center;
+  }
+  @include respond(ph) {
+    padding-bottom: 2rem;
+    max-width: 350px;
+    align-items: center;
+  }
+  img {
+    box-shadow: $shadow;
+    margin: 2.4rem;
+    max-width: 42rem;
+    @include respond(dsk) {
+      max-width: 48rem;
+      margin: 4.4rem;
+    }
+    @include respond(tp) {
+      max-width: 29rem;
+    }
+    @include respond(ph) {
+      max-width: 100%;
+      margin-bottom: 3rem;
+      box-shadow: none;
+    }
+  }
+}
+@mixin body__secondary {
+  width: 100%;
+  height: auto;
+  @include flexCenter;
+  position: relative;
+  top: 5rem;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 27rem;
+    @include respond(tp) {
+      flex-direction: column-reverse;
+      text-align: center;
+      margin-left: 0rem;
+    }
+  }
+}

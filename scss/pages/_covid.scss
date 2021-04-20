@@ -1,0 +1,57 @@
+.header__secondary {
+  @include header__secondary;
+  height: auto;
+  background: transparent;
+}
+
+@include respond(ph) {
+  left: 0;
+}
+
+#header__covid {
+  height: 100%;
+  @include respond(tp) {
+    height: 120%;
+    margin-bottom: -3rem;
+  }
+}
+.body {
+  @include body__secondary;
+  justify-content: center;
+  margin-bottom: 14rem;
+
+  &__top-text--covid {
+    font-size: 2.8rem;
+    max-width: 80rem;
+    text-align: left;
+    color: $color-black;
+    margin-bottom: 3rem;
+    p:first-letter {
+      font-size: 3.8rem;
+    }
+    @include respond(tp) {
+      text-align: left;
+      padding: 0 2rem;
+      position: relative;
+      margin: -7rem 0 -5rem 0;
+    }
+  }
+  &__top-img--covid {
+    @include respond(tp) {
+      position: relative;
+      top: -6rem;
+      left: 6rem;
+    }
+    @include respond(ph) {
+      position: relative;
+      top: -8rem;
+      left: 12rem;
+    }
+    img {
+      max-width: 38rem;
+      margin: 2rem 2rem 0 2rem;
+      width: auto;
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@100;300;400;700;900&family=Pacifico&display=swap");
+@import "variables";
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == ph {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == tp {
+    @media only screen and (max-width: 62.37em) {
+      @content;
+    } //950px
+  }
+  @if $breakpoint == dsk {
+    @media only screen and (max-width: 112.5em) {
+      @content;
+    } //1800px
+  }
+  @if $breakpoint == lrg {
+    @media only screen and (min-width: 112.51em) {
+      @content;
+    } //1800
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.accent {
+  color: $color-accent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.4s ease;
+
+  &:hover {
+    transition: all 0.3s ease-in;
+
+    .link__accent {
+      color: $color-accent;
+    }
+  }
+}
+html {
+  font-size: 62.5%;
+  padding: 2rem;
+  font-family: $font-primary;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-white;
+  overflow: visible;
+  scroll-behavior: smooth;
+
+  @include respond(dsk) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tp) {
+    font-size: 50%;
+    padding: 2%;
+  }
+  @include respond(ph) {
+    font-size: 34%;
+    padding: 2%;
+  }
+  @include respond(lrg) {
+    font-size: 75%; //1rem = 12, 12/16
+  }
+  img {
+    border-radius: $border-pic--l;
+    box-shadow: $shadow;
+  }
+}

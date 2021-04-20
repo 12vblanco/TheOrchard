@@ -1,0 +1,89 @@
+.art__intro {
+  @include flexCenter;
+  text-align: left;
+  margin-top: 1rem;
+
+  &-header {
+    color: $color-dark;
+    font-size: 2rem;
+    max-width: 50rem;
+    position: relative;
+    left: -13rem;
+    @include respond(tp) {
+      margin-left: 30rem;
+      margin-top: -4rem;
+      padding-right: 2rem;
+      text-align: left;
+      left: 0;
+    }
+    @include respond(ph) {
+      text-align: left;
+      margin-top: 0;
+      margin-left: 0rem;
+      padding: 0rem 1rem 1rem 1rem;
+      font-size: 2.8rem;
+      max-width: 100%;
+    }
+  }
+}
+.art__exhibition {
+  width: 70%;
+  color: $color-dark;
+
+  @include flexCenter;
+  flex-direction: column;
+  position: relative;
+  top: -6rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  @include respond(tp) {
+    width: 100%;
+  }
+  @include respond(ph) {
+    margin-bottom: 12rem;
+  }
+  &-text {
+    font-size: 2rem;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    @include respond(ph) {
+      font-size: 2.8rem;
+    }
+    span {
+      color: $color-accent;
+      font-size: 1.6rem;
+    }
+  }
+  &-img {
+    @include flexCenter;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 104rem;
+    img {
+      margin: 1rem;
+      width: 300px;
+      height: auto;
+      max-width: 30rem;
+      @include respond(ph) {
+        max-width: 300px;
+      }
+    }
+  }
+}
+h2 {
+  font-size: 3.4rem;
+}
+h3 {
+  font-size: 2.6rem;
+  @include respond(ph) {
+    font-size: 3rem;
+    max-width: 100%;
+  }
+}
+.exhi_h1 {
+  font-size: 4.4rem;
+  text-transform: uppercase;
+  text-align: center;
+}

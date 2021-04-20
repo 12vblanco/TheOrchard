@@ -1,0 +1,74 @@
+// Reopening plan
+.notice {
+  background: rgba($color: #000000, $alpha: 0.95);
+  border-radius: 0 18px 0 18px;
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+  position: relative;
+  top: -8rem;
+  margin-bottom: -10rem;
+  @include respond(tp) {
+    width: 94%;
+  }
+
+  h2 {
+    font-size: 6rem;
+    color: $color-accent;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+
+#navbar__home,
+#accent_dark,
+#accent_dark2,
+#accent_dark3,
+#accent_dark4 {
+  background: rgba($color: #000000, $alpha: 0.8);
+}
+
+.header {
+  @include header;
+}
+.mainBody {
+  width: 100%;
+  height: auto;
+  &__top {
+    @include mainBody;
+    &-text {
+      @include mainBody-text;
+
+      p:first-letter {
+        font-size: 3.2rem;
+      }
+    }
+    &-img {
+      @include mainBody-img;
+      margin-bottom: 3rem;
+    }
+  }
+  &__bottom {
+    @include mainBody;
+    padding-bottom: 3rem;
+    flex-direction: row-reverse;
+    // background-image: linear-gradient(
+    //   to right top,
+    //   rgba($color-accent, 0.06),
+    //   rgba($color-accent, 0.08)
+    // );
+
+    &-text {
+      @include mainBody-text;
+      p:first-letter {
+        font-size: 3.2rem;
+      }
+    }
+    &-img {
+      @include mainBody-img;
+      align-items: flex-end;
+    }
+  }
+}

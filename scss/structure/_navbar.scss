@@ -1,0 +1,458 @@
+// NAVBAR
+.navbar {
+  width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  height: auto;
+  background: rgba($color: #000000, $alpha: 0.9);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  @include respond(tp) {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+  }
+  &__logoMenu {
+    display: flex;
+    min-width: 450px;
+    height: auto;
+    @include respond(tp) {
+      min-width: 400px;
+    }
+    @include respond(ph) {
+      margin: 0 auto;
+    }
+  }
+  // BURGER MENU
+  .burger__menu .burger__menu--check:checked ~ .burger__menu--menu {
+    visibility: visible;
+  }
+  .burger__menu .burger__menu--check:checked ~ .burger__menu--menu > div {
+    transform: scale(1);
+    transition-duration: 0.6s;
+  }
+  .burger__menu {
+    position: absolute;
+    top: 2.6rem;
+    left: 8;
+    z-index: 2;
+    transition: all 0.5s ease-in;
+    backface-visibility: hidden;
+
+    &--check:checked + .burger__menu--burger {
+      transform: rotate(135deg);
+    }
+    &--check:checked + .burger__menu--burger > div::before {
+      opacity: 0;
+    }
+    &--check:checked + .burger__menu--burger > div::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    &--check {
+      width: 6rem;
+      height: 6rem;
+      position: absolute;
+      top: 1.8rem;
+      left: 1rem;
+      cursor: pointer;
+      z-index: 6;
+      opacity: 0;
+      transition: all 0.3s ease-in;
+      border: 3px black solid;
+      @include respond(ph) {
+        left: 0;
+      }
+    }
+    &--burger {
+      position: absolute;
+      top: 4.4rem;
+      left: 1rem;
+      height: 0.5rem;
+      width: 6rem;
+      background-color: $color-white;
+      border-radius: 0.8rem;
+      z-index: 5;
+      transition: all 0.3s ease-in;
+      @include respond(ph) {
+        left: 0;
+      }
+      ::after,
+      ::before {
+        content: "";
+        position: absolute;
+        height: 0.6rem;
+        width: 6rem;
+        background-color: $color-white;
+        border-radius: 0.8rem;
+        z-index: 1;
+        top: -1.6rem;
+        transition: all 0.3s ease-in;
+      }
+      ::before {
+        top: 1.6rem;
+        right: 0rem;
+      }
+    }
+    &--menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 4;
+    }
+  }
+  .menu__container {
+    background: rgba($color-black, $alpha: 0.9);
+    border-radius: 50%;
+    width: 300vw;
+    height: 300vw;
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+    z-index: 4;
+    &--wrap {
+      text-align: center;
+      max-width: 90vw;
+      height: auto;
+      transition: opacity 0.4s ease;
+
+      & ul {
+        list-style: none;
+        color: $color-dark;
+
+        & li {
+          color: $color-white;
+          font-family: $font-primary;
+          font-size: 2rem;
+          text-transform: uppercase;
+          font-weight: 700;
+          margin-top: 1rem;
+
+          @include respond(ph) {
+            font-size: 2.6rem;
+            margin-top: 2rem;
+          }
+          .active {
+            color: $color-accent;
+            font-weight: 900;
+          }
+          & a {
+            color: inherit;
+            transition: color 0.4s ease;
+          }
+          & a:link,
+          a:visited {
+            transition: all linear 0.4s;
+          }
+        }
+      }
+    }
+  }
+  &__logo {
+    cursor: pointer;
+    padding-left: 80px;
+    &-img {
+      max-width: 40rem;
+      padding-left: 2rem;
+      box-shadow: none;
+      @include respond(tp) {
+        padding-top: 2rem;
+      }
+      @include respond(ph) {
+        max-width: 60%;
+        padding-left: 5%;
+      }
+    }
+
+    @include respond(ph) {
+      font-size: 5.6rem;
+      padding-left: 40px;
+      margin-top: -0.5rem;
+    }
+  }
+  &__info {
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 2.4rem;
+
+    @include respond(tp) {
+      padding-top: 0rem;
+      line-height: 1.3;
+    }
+    @include respond(ph) {
+      margin: 0 auto;
+      text-align: center;
+    }
+    &-openStatus {
+      display: inline-block;
+      font-family: $font-primary;
+      font-size: 2.2rem;
+      font-weight: 500;
+      margin-left: 3rem;
+      letter-spacing: -0.02rem;
+
+      @include respond(ph) {
+        font-size: 3rem;
+        margin-left: 0rem;
+      }
+    }
+    &-text {
+      display: inline-block;
+      ul {
+        li {
+          display: inline-block;
+          font-family: $font-primary;
+          font-size: 2.2rem;
+          margin-left: 3rem;
+          font-weight: 600;
+          letter-spacing: -0.02rem;
+          cursor: pointer;
+
+          @include respond(ph) {
+            font-size: 2.6rem;
+            letter-spacing: -0.03rem;
+            margin-left: 0rem;
+          }
+        }
+        .phone {
+          display: inline-block;
+          border-radius: 25px;
+          padding: 0 0.4rem;
+          font-weight: 600;
+
+          @include respond(ph) {
+            margin-left: 2rem;
+          }
+        }
+      }
+      .nav__icons {
+        margin-left: 1.4rem;
+        transition: all 0.4s ease;
+      }
+    }
+  }
+}
+.navbar_secondary {
+  background: $color-black;
+}
+// ACCENT MENU
+.accent__menu-menus,
+.accent__menu-book,
+.accent__menu-social {
+  position: absolute;
+  // left: -6rem;
+  color: white;
+  width: 24rem;
+  height: 8rem;
+  border-radius: 0 18px 0 18px;
+  background: rgba(black, $alpha: 0.9);
+  font-family: $font-primary;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  z-index: 4;
+  transition: color 0.4s ease;
+  @include respond(tp) {
+    margin-top: 2rem;
+  }
+}
+.accent__menu {
+  &-menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 17rem;
+    @include respond(tp) {
+      top: 18rem;
+    }
+
+    &:hover {
+      color: $color-accent;
+    }
+    // padding-right: 2rem;
+    // letter-spacing: 0.32rem;
+
+    @include respond(ph) {
+      display: none;
+    }
+
+    &:hover {
+      .ourMenus__container {
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 24rem;
+        width: 30rem;
+        height: auto;
+        background: rgba($color-black, $alpha: 0.9);
+        border-radius: 18px;
+        font-size: 2.4rem;
+        line-height: 2;
+        padding: 2rem 2rem 2rem 2.4rem;
+        z-index: 3;
+        font-weight: 700;
+        transition: all 0.4s ease;
+
+        a {
+          color: $color-white;
+          // background-color: initial;
+          &:hover {
+            color: $color-accent;
+          }
+        }
+      }
+      .ourMenus__container-items {
+        display: list-item;
+      }
+    }
+  }
+  .ourMenus__container-items {
+    display: none;
+  }
+  &-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 26rem;
+    border: 0;
+    outline: 0;
+    &:hover {
+      color: $color-accent;
+    }
+    @include respond(tp) {
+      top: 29rem;
+    }
+    @include respond(ph) {
+      top: 29rem;
+    }
+  }
+  &-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 35rem;
+    // padding-top: 1.8rem;
+    // padding-left: 1rem;
+    @include respond(tp) {
+      top: 39rem;
+    }
+    @include respond(ph) {
+      top: 39rem;
+    }
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__items {
+      font-size: 2.6rem;
+      margin: 0 1.6rem;
+      cursor: pointer;
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }
+}
+
+// RESERVATIONS
+#position {
+  top: 26%;
+  z-index: 0;
+  @include respond(tp) {
+    top: 88rem;
+  }
+}
+
+.popup__hide {
+  display: none;
+}
+.popup {
+  position: absolute;
+  width: 100%;
+  width: auto;
+  margin: 0 auto;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  @include respond(tp) {
+    top: 52rem;
+    right: 18rem;
+  }
+  @include respond(ph) {
+    top: 94rem;
+    right: -27rem;
+  }
+
+  &__wrapper {
+    cursor: pointer;
+    width: 100%;
+    height: 540px;
+    padding: 1rem;
+    display: none;
+    @include respond(ph) {
+      padding: 0;
+    }
+  }
+  &__content {
+    width: 100%;
+    margin: 0 auto;
+    h2 {
+      padding: 0 0 1rem 0rem;
+      cursor: initial;
+      margin-bottom: -1.2rem;
+      @include respond(tp) {
+        font-size: 2.2rem;
+      }
+      @include respond(ph) {
+        font-size: 2.6rem;
+      }
+    }
+    &-close {
+      position: relative;
+      top: 34px;
+      right: -75%;
+      cursor: pointer;
+      color: $color-dark;
+      font-weight: 900;
+      font-size: 2rem;
+      text-transform: capitalize;
+      transition: all 0.4s ease-in;
+      @include respond(tp) {
+        font-size: 3rem;
+      }
+
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }
+}
+
+.iframe {
+  border: 0px none;
+  min-width: 320px;
+  // min-height: 480px;
+  width: 20vw;
+  height: 48vh;
+  min-height: 496px;
+  overflow: hidden;
+}

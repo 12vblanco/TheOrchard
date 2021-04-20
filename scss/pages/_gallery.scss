@@ -1,0 +1,52 @@
+.header__secondary {
+  @include header__secondary;
+  color: #000;
+  height: 120%;
+  margin-bottom: -8rem;
+  @include respond(tp) {
+  }
+}
+#burger-dark {
+  background-color: $color-dark;
+
+  @include respond(ph) {
+    left: 0;
+  }
+  ::after,
+  ::before {
+    background-color: $color-dark;
+  }
+}
+
+.body__top--gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 4rem;
+  @include respond(tp) {
+    padding: 0;
+  }
+  @include respond(ph) {
+    margin-top: 22rem;
+    padding-bottom: 4rem;
+  }
+  & img {
+    width: 33rem;
+    margin: 1rem;
+    @include respond(ph) {
+      box-shadow: none;
+      width: 320px;
+    }
+  }
+}
+.blank__img {
+  visibility: hidden;
+  display: none;
+  @include respond(tp) {
+    display: initial;
+  }
+  @include respond(ph) {
+    visibility: hidden;
+    display: none;
+  }
+}

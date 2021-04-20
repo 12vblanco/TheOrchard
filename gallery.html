@@ -11,12 +11,12 @@
 
     <meta
       name="description"
-      content="Welcome to The Orchard Bar. We are an informal, relaxed bar & restaurant in Edinburgh. Stylish venue, pub favourites menu, daily specials & Sunday roasts."
+      content="Welcome to The Orchard Bar & Restaurant. A gallery with images from our pub's food and atmosphere"
     />
     <meta
       name="keywords"
-      content="restaurant, bar, orchard, pub, Edinburgh, Lunch, local, dinner, British, Scottish, Food And Catering
-      , Coffee, tea, near botanic garden, near botanical garden, craft beer, beer, wine, Whiskies, whisky, royal"
+      content="restaurant, pub, Edinburgh, Lunch, local, dinner, British, Scottish, Food And Catering
+      , beekeepers, Beekeeping, visit, Coffee, tea, bar, craft beer, beer, wine, Whiskies, whisky"
     />
     <meta name="robots" content="index,follow" />
     <meta
@@ -44,7 +44,7 @@
     <meta property="og:image:alt" content="The Orchard Bar & Restaurant" />
     <meta
       property="og:description"
-      content="Welcome to The Orchard Bar. We are an informal, relaxed bar & restaurant in Edinburgh. Stylish venue, pub favourites menu, daily specials & Sunday roasts."
+      content="Welcome to The Orchard Bar & Restaurant. We are an informal, relaxed bar and restaurant located in Cannonmills, Edinburgh. Stylish venue with a pub favourites menu, daily specials, Sunday roasts and a kids' menu."
     />
     <meta property="og:site_name" content="The Orchard Bar & Restaurant" />
     <meta property="og:locale" content="en_GB" />
@@ -52,17 +52,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="images/logo-white.png" />
 
-    <title>The Orchard Bar & Restaurant</title>
+    <title>The Orchard Bar | Gallery</title>
   </head>
   <body>
-    <div class="header">
-      <h1 class="hidden">
-        At the Orchard Bar & Restaurant we pride ourselves on using the finest
-        locally sourced fresh produce.
-      </h1>
-      <div id="navbar__home" class="navbar">
+    <div id="header__gallery" class="header__secondary">
+      <h1 class="hidden">main header</h1>
+
+      <div class="navbar navbar_secondary">
         <div class="navbar__logoMenu">
           <div class="burger__menu">
             <input type="checkbox" id="menu" class="burger__menu--check" />
@@ -71,9 +68,9 @@
               <div class="menu__container">
                 <div class="menu__container--wrap">
                   <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="covid.html">Covid 19</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
                     <li><a href="art.html">Art</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li>
@@ -107,7 +104,7 @@
             </div>
           </div>
           <div class="navbar__logo">
-            <a href="#"
+            <a href="index.html"
               ><p>
                 <img
                   loading="lazy"
@@ -146,10 +143,9 @@
         </div>
       </div>
       <div class="accent__menu">
-        <div id="accent_dark" class="accent__menu-menus">
-          <p class="text__accentMenu">Our Menus</p>
-
-          <div id="accent_dark2" class="ourMenus__container">
+        <div class="accent__menu-menus navbar_secondary">
+          Our Menus
+          <div class="ourMenus__container">
             <ul class="ourMenus__container-items">
               <li>
                 We are updating our menus and they will be available soon.
@@ -171,22 +167,27 @@
             </ul>
           </div>
         </div>
-        <button id="accent_dark3" class="accent__menu-book">
-          Book a Table
-        </button>
+        <button class="accent__menu-book">Book a Table</button>
         <div class="popup__wrapper">
-          <div class="popup">
+          <div id="position" class="popup">
             <div class="popup__content">
               <div class="popup__content-close">close x</div>
               <iframe
-                class="iframe"
                 src="https://tableagent.com/iframe/the-orchard-bar-restaurant/v/medium/"
+                style="
+                  border: 0px none;
+                  min-width: 300px;
+                  max-width: 350px;
+                  min-height: 480px;
+                "
+                width="330"
+                height="480"
               >
               </iframe>
             </div>
           </div>
         </div>
-        <div id="accent_dark4" class="accent__menu-social">
+        <div class="accent__menu-social">
           <ul class="social">
             <li class="social__items">
               <a href="https://www.facebook.com/theorchardbar/" target="_blank"
@@ -215,83 +216,158 @@
           </ul>
         </div>
       </div>
+
+      <section class="body">
+        <h2 class="hidden">main body</h2>
+        <div class="body__top">
+          <div class="body__top--gallery">
+            <div class="blank__img">
+              <a href="#"></a
+              ><img
+                loading="lazy"
+                src="images/gallery/blank__img.png"
+                alt="Sorry this is just a white space"
+              />
+            </div>
+            <div>
+              <a
+                href="images/gallery/steak.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/steak-s.jpg"
+                  alt="Steak and cress toast"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/window.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/window-s.jpg"
+                  alt="View of the windows"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/light.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/light-s.jpg"
+                  alt="The Orchard Bar from outside"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/tap.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/tap-s.jpg"
+                  alt="A sample of the tap options"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/partridge.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/partridge-s.jpg"
+                  alt="Partridge wrapped in bacon"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/plant.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/plant-s.jpg"
+                  alt="The front door"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/plantpot.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/plantpot-s.jpg"
+                  alt="Flowers on a table"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/haggis.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/haggis-s.jpg"
+                  alt="The bar and the street outside"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/outside.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img loading="lazy" src="images/gallery/outside-s.jpg" alt=""
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="images/gallery/pie.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/pie-s.jpg"
+                  alt="One of our delicious pies"
+              /></a>
+            </div>
+
+            <!-- <div>
+                            <a href="images/gallery/draw.jpg" data-lightbox="my gallery" data-title=""><img loading="lazy"  src="images/gallery/draw-s.jpg" alt="A drawing of the Orchard"></a>
+                        </div>            -->
+
+            <div>
+              <a
+                href="images/gallery/hake.jpg"
+                data-lightbox="my gallery"
+                data-title=""
+                ><img
+                  loading="lazy"
+                  src="images/gallery/hake-s.jpg"
+                  alt="Hake dish"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="notice">
-      <h2>Reopening Plan</h2>
-      <p>
-        To all our dear customers;<br />
-        we do hope you are well and lockdown hasn’t been too bad! <br />There
-        are still a few uncertainties regarding how we will be allowed to trade
-        again once the restrictions are relaxed, however our plan for now is to
-        <b>reopen on Thursday 29th April</b> and be open
-        <b>Thursday through Sunday</b>
-        while in level 3. <br />We will not be serving breakfast this time
-        around, although we will be open from 11am for coffee, teas & cake and
-        serving our main menu from 12pm to 6/8pm(depending on restrictions).<br />
-        It looks like we will not be permitted to sell alcohol until May 17th.
-        If things go as planned we will be open 7 days a week 11am-10pm from
-        that date.
-        <br /><br />Our table booking system is open now!
-      </p>
-    </div>
-    <section class="mainBody">
-      <h2 class="hidden">main body</h2>
-      <div class="mainBody__top">
-        <div class="mainBody__top-text">
-          <p>
-            The Orchard Bar is an informal, relaxed bar and restaurant situated
-            in Canonmills only a few minutes walk from the botanic gardens.<br />
-            With a regularly changing and varied menu using locally sourced
-            seasonal produce the orchard provides excellent classic meals with a
-            modern touch. Whether it is one of our pub favourites such as
-            Haddock & Chips or our legendary Steak Pies and Burgers to the more
-            refined Fillet of Cod or Lamb rump dishes there is something for
-            every palate. The Orchard also has vegetarian and vegan options as
-            well as a gluten free and children`s menu available.
-            <br /><br />Please ask us if you need to see our gluten free menu or
-            have any dietary requirements.
-          </p>
-        </div>
-        <div class="mainBody__top-img">
-          <img
-            loading="lazy"
-            src="images/food1.jpg"
-            alt="The Orchard's Food"
-            width="432px"
-            height="auto"
-          />
-        </div>
-      </div>
-      <div class="mainBody__bottom">
-        <div class="mainBody__bottom-text">
-          <p>
-            We have a wide range of drinks here at the Orchard. Beers, Wines,
-            Gins, Whiskies, Rums, soft drinks and hot drinks. We have Ales like
-            Deuchars on the pumps plus guest ales that change regularly.
-            <br /><br />We also have a selection of single cask whiskies
-            supplied by Cadenheads which are independently bottled in
-            Campbeltown, for that extra special treat.<br />Why not try our
-            Highland Park 30 year old cask strength whisky for example or our 8
-            year old Springbank Sherry cask.<br />Cadenheads also supply us with
-            our unique cask strength sipping rums. From the FourSquare
-            distillery in Barbados we have an 11 year old and a 12 year old to
-            try, and rums from Belize, Jamaica and Trinidad. Plus old favourites
-            like Havana club from Cuba to Diplomatico from Venezuela.
-          </p>
-        </div>
-        <div class="mainBody__bottom-img">
-          <img
-            loading="lazy"
-            src="images/drinks1.jpg"
-            alt="The Orchard's Drinks"
-            width="432px"
-            height="auto"
-          />
-        </div>
-      </div>
-    </section>
     <footer class="footer">
       <h3 class="hidden">footer</h3>
+
       <div class="footer__container">
         <div class="footer__container-social">
           <ul>
@@ -362,7 +438,7 @@
             <a href="mailto:theorchardbar@gmail.com">theorchardbar@gmail.com</a>
           </p>
 
-          <h4>Website Victor Blanco 2020 - 2021 &copy;</h4>
+          <h4>BLANCO WEBS | 2020 - 2021 &copy;</h4>
         </div>
       </div>
     </footer>
