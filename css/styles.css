@@ -980,9 +980,9 @@ html img {
 }
 
 .popup__content-close {
-  position: relative;
-  top: 34px;
-  right: -75%;
+  position: fixed;
+  top: 0;
+  right: 0;
   cursor: pointer;
   color: #333333;
   font-weight: 900;
@@ -1011,6 +1011,7 @@ html img {
   max-height: 496px;
   min-height: 496px;
   overflow: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -1227,6 +1228,12 @@ html img {
   font-size: 3.2rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .mainBody__top-text {
+    display: none;
+  }
+}
+
 .mainBody__top-img {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1407,6 +1414,12 @@ html img {
 
 .mainBody__bottom-text p:first-letter {
   font-size: 3.2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .mainBody__bottom-text {
+    display: none;
+  }
 }
 
 .mainBody__bottom-img {

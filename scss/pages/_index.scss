@@ -55,6 +55,9 @@
       p:first-letter {
         font-size: 3.2rem;
       }
+      @include respond(ph) {
+        display: none;
+      }
     }
     &-img {
       @include mainBody-img;
@@ -75,6 +78,9 @@
       @include mainBody-text;
       p:first-letter {
         font-size: 3.2rem;
+      }
+      @include respond(ph) {
+        display: none;
       }
     }
     &-img {
