@@ -4,6 +4,7 @@
   padding: 2rem;
   margin: 0 auto;
   height: auto;
+  max-height: 140px;
   background: rgba($color: #000000, $alpha: 0.9);
   display: flex;
   justify-content: space-evenly;
@@ -190,6 +191,7 @@
     @include respond(tp) {
       padding-top: 0rem;
       line-height: 1.3;
+      text-align: center;
     }
     @include respond(ph) {
       margin: 0 auto;
@@ -336,10 +338,10 @@
       color: $color-accent;
     }
     @include respond(tp) {
-      top: 29rem;
+      top: 28rem;
     }
     @include respond(ph) {
-      top: 29rem;
+      top: 26rem;
     }
   }
   &-social {
@@ -351,10 +353,10 @@
     // padding-top: 1.8rem;
     // padding-left: 1rem;
     @include respond(tp) {
-      top: 39rem;
+      top: 38rem;
     }
     @include respond(ph) {
-      top: 39rem;
+      top: 36rem;
     }
   }
   .social {
