@@ -905,7 +905,7 @@ html img {
 
 @media only screen and (max-width: 62.37em) {
   #position {
-    top: 88rem;
+    top: 90rem;
   }
 }
 
@@ -1009,6 +1009,12 @@ html img {
   max-height: 496px;
   min-height: 496px;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .iframe {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -1991,6 +1997,12 @@ h3 {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  #header__covid {
+    height: auto;
+  }
+}
+
 .body {
   width: 100%;
   height: auto;
@@ -2056,6 +2068,10 @@ h3 {
     position: relative;
     margin: -7rem 0 -5rem 0;
   }
+}
+
+.body__top-img--covid {
+  z-index: -1;
 }
 
 @media only screen and (max-width: 62.37em) {
