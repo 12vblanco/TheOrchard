@@ -1,9 +1,17 @@
-.header__secondary {
-  @include header__secondary;
-  color: #000;
-  height: 120%;
-  margin-bottom: -8rem;
+// .header__secondary {
+//   @include header__secondary;
+//   color: #000;
+//   height: 120%;
+//   margin-bottom: -8rem;
+//   @include respond(tp) {
+//   }
+// }
+
+#position__gallery {
+  top: 18%;
+  z-index: 0;
   @include respond(tp) {
+    top: 88rem;
   }
 }
 #burger-dark {

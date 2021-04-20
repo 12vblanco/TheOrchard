@@ -1455,19 +1455,14 @@ html img {
   }
 }
 
-.header__secondary {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  color: #ffffff;
-  color: #000;
-  height: 120%;
-  margin-bottom: -8rem;
+#position__gallery {
+  top: 18%;
+  z-index: 0;
 }
 
 @media only screen and (max-width: 62.37em) {
-  .header__secondary {
-    min-height: 98rem;
+  #position__gallery {
+    top: 88rem;
   }
 }
 
@@ -1542,6 +1537,17 @@ html img {
   .blank__img {
     visibility: hidden;
     display: none;
+  }
+}
+
+#position__art {
+  top: 18%;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 62.37em) {
+  #position__art {
+    top: 88rem;
   }
 }
 

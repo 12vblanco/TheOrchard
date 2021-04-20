@@ -1,3 +1,11 @@
+#position__art {
+  top: 18%;
+  z-index: 0;
+  @include respond(tp) {
+    top: 88rem;
+  }
+}
+
 .art__intro {
   @include flexCenter;
   text-align: left;
