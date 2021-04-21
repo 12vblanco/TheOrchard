@@ -1112,7 +1112,7 @@ html img {
     background-image: -webkit-linear-gradient(left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/index__background-1x.jpg);
     background-image: -o-linear-gradient(left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/index__background-1x.jpg);
     background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/index__background-1x.jpg);
-    background-position: left;
+    background-position: right;
     min-height: 146rem;
   }
 }
