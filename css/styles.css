@@ -1029,7 +1029,9 @@ html img {
 .notice {
   background: rgba(0, 0, 0, 0.95);
   border-radius: 0 18px 0 18px;
-  width: 60%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: auto;
   padding: 2rem;
   position: relative;
@@ -1054,10 +1056,16 @@ html img {
   font-size: 5rem;
   color: #ff5454;
   text-transform: uppercase;
+  padding: 0 4rem;
+}
+
+.notice h3 {
+  padding: 0 4rem;
 }
 
 .notice p {
   font-size: 2rem;
+  padding: 0 4rem 2rem 4rem;
 }
 
 @media only screen and (max-width: 37.5em) {
