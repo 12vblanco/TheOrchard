@@ -14,25 +14,25 @@ popup.addEventListener('click', () => {
 
 
 const monday = document.querySelector('.footer__opening-monday');
-monday.innerText = 'Monday Currently Closed';
+monday.innerText = 'Thursday 11-8pm';
 
 const tuesday = document.querySelector('.footer__opening-tuesday');
-tuesday.innerText = 'Tuesday Currently Closed';
+tuesday.innerText = 'Friday 11-8pm';
 
 const wednesday = document.querySelector('.footer__opening-wednesday');
-wednesday.innerText = 'Wednesday Currently Closed';
+wednesday.innerText = 'Saturday 11-8pm';
 
 const thursday = document.querySelector('.footer__opening-thursday');
-thursday.innerText = 'Thursday 29th 11:00 - 20:00';
+thursday.innerText = 'Sunday 11-8pm';
 
 const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday 30th 11:00 - 20:00';
+friday.innerText = 'NO ALCOHOLIC DRINKS';
 
 const saturday = document.querySelector('.footer__opening-saturday');
-saturday.innerText = 'Saturday 1st 11:00 - 20:00';
+saturday.innerText = 'until May 17th!';
 
 const sunday = document.querySelector('.footer__opening-sunday');
-sunday.innerText = 'Sunday 2nd 11:00 - 20:00';
+sunday.innerText = 'Full food menu will be served 12 - 8pm';
 
 var d = new Date();
 var n = d.getDay();
@@ -52,11 +52,11 @@ var day = weekdays[n];
 
 if (now > day[1] && now < day[2] || now > day[3] && now < day[4]) {
     const opening = document.querySelector('.navbar__info-openStatus');
-    // opening.innerText = 'We are open right now!';
-    opening.innerText = 'We plan to reopen on the 29th of April!'
+    opening.innerText = 'We are open right now!';
+    // opening.innerText = 'We plan to reopen on the 29th of April!'
 
 }
  else {
     const opening = document.querySelector('.navbar__info-openStatus');
-    opening.innerText = 'We plan to reopen on the 29th of April!'
+    opening.innerText = 'Sorry We are Closed'
     ;}
