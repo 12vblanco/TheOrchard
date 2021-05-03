@@ -58,5 +58,5 @@ if (now > day[1] && now < day[2] || now > day[3] && now < day[4]) {
 }
  else {
     const opening = document.querySelector('.navbar__info-openStatus');
-    opening.innerText = 'Sorry We are Closed'
+    opening.innerText = 'Sorry We are Closed Right Now'
     ;}
