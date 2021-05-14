@@ -39,9 +39,9 @@ var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
 var weekdays = [
     ["Sunday",  11.00, 20.00],
-    ["Monday", ],
-    ["Tuesday", ],
-    ["Wednesday", ],
+    ["Monday", 11.00, 22.30],
+    ["Tuesday", 11.00, 22.30],
+    ["Wednesday", 11.00, 22.30],
     ["Thursday", 11.00, 20.00],
     ["Friday", 11.00, 20.00],
     ["Saturday", 11.00, 20.00],
@@ -58,5 +58,5 @@ if (now > day[1] && now < day[2] || now > day[3] && now < day[4]) {
 }
  else {
     const opening = document.querySelector('.navbar__info-openStatus');
-    opening.innerText = 'Sorry We are Closed Right Now'
+    opening.innerText = 'Sorry we are closed'
     ;}
