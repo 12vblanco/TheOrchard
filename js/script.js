@@ -26,7 +26,7 @@ const thursday = document.querySelector('.footer__opening-thursday');
 thursday.innerText = 'Thursday 20 th 11-10.30pm';
 
 const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday 14 th May 11-8pm';
+friday.innerText = 'Friday 21 th May 11-10.30pm';
 
 const saturday = document.querySelector('.footer__opening-saturday');
 saturday.innerText = 'Saturday 15 th May 11-8pm';
@@ -42,8 +42,8 @@ var weekdays = [
     ["Monday", 11.00, 22.30],
     ["Tuesday", 11.00, 22.30],
     ["Wednesday", 11.00, 22.30],
-    ["Thursday", 11.00, 20.00],
-    ["Friday", 11.00, 20.00],
+    ["Thursday", 11.00, 22.30],
+    ["Friday", 11.00, 22.30],
     ["Saturday", 11.00, 20.00],
 
 ];
