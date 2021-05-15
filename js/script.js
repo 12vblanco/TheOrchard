@@ -26,7 +26,7 @@ const thursday = document.querySelector('.footer__opening-thursday');
 thursday.innerText = 'Thursday 20 th 11-10.30pm';
 
 const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday 21 th May 11-10.30pm';
+friday.innerText = 'Friday 21 st May 11-10.30pm';
 
 const saturday = document.querySelector('.footer__opening-saturday');
 saturday.innerText = 'Saturday 15 th May 11-8pm';
