@@ -14,25 +14,25 @@ popup.addEventListener('click', () => {
 
 
 const monday = document.querySelector('.footer__opening-monday');
-monday.innerText = 'Monday 17th 11-10.30pm';
+monday.innerText = 'Monday 11-10.30pm';
 
 const tuesday = document.querySelector('.footer__opening-tuesday');
-tuesday.innerText = 'Tuesday 18 th 11-10.30pm';
+tuesday.innerText = 'Tuesday 11-10.30pm';
 
 const wednesday = document.querySelector('.footer__opening-wednesday');
-wednesday.innerText = 'Wednesday 19 th 11-10.30pm';
+wednesday.innerText = 'Wednesday 11-10.30pm';
 
 const thursday = document.querySelector('.footer__opening-thursday');
-thursday.innerText = 'Thursday 20 th 11-10.30pm';
+thursday.innerText = 'Thursday 11-10.30pm';
 
 const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday 21 st May 11-10.30pm';
+friday.innerText = 'Friday May 11-10.30pm';
 
 const saturday = document.querySelector('.footer__opening-saturday');
-saturday.innerText = 'Saturday 15 th May 11-8pm';
+saturday.innerText = 'Saturday May 11-8pm';
 
 const sunday = document.querySelector('.footer__opening-sunday');
-sunday.innerText = 'Sunday 16 th May 11-8pm';
+sunday.innerText = 'Sunday May 11-8pm';
 
 var d = new Date();
 var n = d.getDay();
