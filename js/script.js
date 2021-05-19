@@ -26,13 +26,13 @@ const thursday = document.querySelector('.footer__opening-thursday');
 thursday.innerText = 'Thursday 11:00-10.30pm';
 
 const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday May 11:00-10.30pm';
+friday.innerText = 'Friday 11:00-10.30pm';
 
 const saturday = document.querySelector('.footer__opening-saturday');
-saturday.innerText = 'Saturday May 11:00-10:30pm';
+saturday.innerText = 'Saturday 11:00-10:30pm';
 
 const sunday = document.querySelector('.footer__opening-sunday');
-sunday.innerText = 'Sunday May 11:00-9:00pm';
+sunday.innerText = 'Sunday 11:00-9:00pm';
 
 var d = new Date();
 var n = d.getDay();
