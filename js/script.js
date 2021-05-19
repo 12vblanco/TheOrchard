@@ -29,22 +29,22 @@ const friday = document.querySelector('.footer__opening-friday');
 friday.innerText = 'Friday May 11-10.30pm';
 
 const saturday = document.querySelector('.footer__opening-saturday');
-saturday.innerText = 'Saturday May 11-8pm';
+saturday.innerText = 'Saturday May 11-10:30pm';
 
 const sunday = document.querySelector('.footer__opening-sunday');
-sunday.innerText = 'Sunday May 11-8pm';
+sunday.innerText = 'Sunday May 11-9pm';
 
 var d = new Date();
 var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
 var weekdays = [
-    ["Sunday",  11.00, 20.00],
+    ["Sunday",  11.00, 21.00],
     ["Monday", 11.00, 22.30],
     ["Tuesday", 11.00, 22.30],
     ["Wednesday", 11.00, 22.30],
     ["Thursday", 11.00, 22.30],
     ["Friday", 11.00, 22.30],
-    ["Saturday", 11.00, 20.00],
+    ["Saturday", 11.00, 22.30],
 
 ];
 var day = weekdays[n];
