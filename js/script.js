@@ -13,6 +13,8 @@ popup.addEventListener('click', () => {
 });
 
 
+
+// opening footer
 const monday = document.querySelector('.footer__opening-monday');
 monday.innerText = 'Monday 11-10.30pm';
 
@@ -34,6 +36,8 @@ saturday.innerText = 'Saturday 11:00-10:30pm';
 const sunday = document.querySelector('.footer__opening-sunday');
 sunday.innerText = 'Sunday 11:00-9:00pm';
 
+
+// opening now
 var d = new Date();
 var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
@@ -60,3 +64,5 @@ if (now > day[1] && now < day[2] || now > day[3] && now < day[4]) {
     const opening = document.querySelector('.navbar__info-openStatus');
     opening.innerText = 'Sorry we are closed'
     ;}
+
+
