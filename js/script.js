@@ -17,22 +17,22 @@ const monday = document.querySelector('.footer__opening-monday');
 monday.innerText = 'Monday 11-10.30pm';
 
 const tuesday = document.querySelector('.footer__opening-tuesday');
-tuesday.innerText = 'Tuesday 11-10.30pm';
+tuesday.innerText = 'Tuesday 11:00-10.30pm';
 
 const wednesday = document.querySelector('.footer__opening-wednesday');
-wednesday.innerText = 'Wednesday 11-10.30pm';
+wednesday.innerText = 'Wednesday 11:00-10.30pm';
 
 const thursday = document.querySelector('.footer__opening-thursday');
-thursday.innerText = 'Thursday 11-10.30pm';
+thursday.innerText = 'Thursday 11:00-10.30pm';
 
 const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday May 11-10.30pm';
+friday.innerText = 'Friday May 11:00-10.30pm';
 
 const saturday = document.querySelector('.footer__opening-saturday');
-saturday.innerText = 'Saturday May 11-10:30pm';
+saturday.innerText = 'Saturday May 11:00-10:30pm';
 
 const sunday = document.querySelector('.footer__opening-sunday');
-sunday.innerText = 'Sunday May 11-9pm';
+sunday.innerText = 'Sunday May 11:00-9:00pm';
 
 var d = new Date();
 var n = d.getDay();
