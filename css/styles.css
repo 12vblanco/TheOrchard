@@ -1093,7 +1093,7 @@ html img {
   background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../images/index__background.jpg);
   -webkit-background-size: cover;
           background-size: cover;
-  background-position: right;
+  background-position: center;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
@@ -1120,7 +1120,7 @@ html img {
     background-image: -webkit-linear-gradient(left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/index__background-1x.jpg);
     background-image: -o-linear-gradient(left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/index__background-1x.jpg);
     background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../images/index__background-1x.jpg);
-    background-position: right;
+    background-position: center;
     min-height: 146rem;
   }
 }

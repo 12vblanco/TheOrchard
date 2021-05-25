@@ -21,7 +21,7 @@
     ),
     url(../images/index__background.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: center;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
@@ -41,7 +41,7 @@
         rgba($color-black, 0.2)
       ),
       url(../images/index__background-1x.jpg);
-    background-position: right;
+    background-position: center;
     min-height: 146rem;
   }
 }
