@@ -305,7 +305,7 @@ html img {
   color: #ff5454;
 }
 
-.footer .footer__container-address h4 {
+.footer .footer__container-address .copyright {
   text-align: center;
   margin-top: 5rem;
   font-size: 12px;
