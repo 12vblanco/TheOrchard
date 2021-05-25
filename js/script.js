@@ -16,25 +16,25 @@ popup.addEventListener('click', () => {
 
 // opening footer
 const monday = document.querySelector('.footer__opening-monday');
-monday.innerText = 'Monday 11-10.30pm';
+monday.innerText = 'Monday 12:00-09.00pm';
 
 const tuesday = document.querySelector('.footer__opening-tuesday');
-tuesday.innerText = 'Tuesday 11:00-10.30pm';
+tuesday.innerText = 'Tuesday 12:00-10.30pm';
 
 const wednesday = document.querySelector('.footer__opening-wednesday');
-wednesday.innerText = 'Wednesday 11:00-10.30pm';
+wednesday.innerText = 'Wednesday 12:00-10.30pm';
 
 const thursday = document.querySelector('.footer__opening-thursday');
-thursday.innerText = 'Thursday 11:00-10.30pm';
+thursday.innerText = 'Thursday 12:00-10.30pm';
 
 const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday 11:00-10.30pm';
+friday.innerText = 'Friday 12:00-10.30pm';
 
 const saturday = document.querySelector('.footer__opening-saturday');
-saturday.innerText = 'Saturday 11:00-10:30pm';
+saturday.innerText = 'Saturday 12:00-10:30pm';
 
 const sunday = document.querySelector('.footer__opening-sunday');
-sunday.innerText = 'Sunday 11:00-9:00pm';
+sunday.innerText = 'Sunday 12:00-09.00pm';
 
 
 // opening now
@@ -42,13 +42,13 @@ var d = new Date();
 var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
 var weekdays = [
-    ["Sunday",  11.00, 21.00],
-    ["Monday", 11.00, 22.30],
-    ["Tuesday", 11.00, 22.30],
-    ["Wednesday", 11.00, 22.30],
-    ["Thursday", 11.00, 22.30],
-    ["Friday", 11.00, 22.30],
-    ["Saturday", 11.00, 22.30],
+    ["Sunday",  12.00, 21.00],
+    ["Monday", 12.00, 21.00],
+    ["Tuesday", 12.00, 22.30],
+    ["Wednesday", 12.00, 22.30],
+    ["Thursday", 12.00, 22.30],
+    ["Friday", 12.00, 22.30],
+    ["Saturday", 12.00, 22.30],
 
 ];
 var day = weekdays[n];
