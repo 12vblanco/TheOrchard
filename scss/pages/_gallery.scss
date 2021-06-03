@@ -7,6 +7,12 @@
 //   }
 // }
 
+.last_img {
+  @include respond(lrg) {
+    display: none;
+  }
+}
+
 #position__gallery {
   top: 18%;
   z-index: 0;

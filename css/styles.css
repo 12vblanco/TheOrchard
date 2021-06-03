@@ -1503,6 +1503,12 @@ html img {
   }
 }
 
+@media only screen and (min-width: 112.51em) {
+  .last_img {
+    display: none;
+  }
+}
+
 #position__gallery {
   top: 18%;
   z-index: 0;
