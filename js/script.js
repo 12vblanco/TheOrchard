@@ -1,16 +1,16 @@
-const button = document.querySelector('button');
-const popup = document.querySelector('.popup__wrapper');
-const close = document.querySelector('.popup__content-close');
-button.addEventListener('click', () => {
-    popup.style.display = 'inline-block';
-    popup.style.margin = '0 auto';
-});
-close.addEventListener('click', () => {
-    popup.style.display = 'none';
-});
-popup.addEventListener('click', () => {
-    popup.style.display = 'none';
-});
+// const button = document.querySelector('button');
+// const popup = document.querySelector('.popup__wrapper');
+// const close = document.querySelector('.popup__content-close');
+// button.addEventListener('click', () => {
+//     popup.style.display = 'inline-block';
+//     popup.style.margin = '0 auto';
+// });
+// close.addEventListener('click', () => {
+//     popup.style.display = 'none';
+// });
+// popup.addEventListener('click', () => {
+//     popup.style.display = 'none';
+// });
 
 
 

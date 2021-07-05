@@ -1026,6 +1026,11 @@ html img {
   }
 }
 
+#notice {
+  position: relative;
+  top: -10rem;
+}
+
 .notice {
   background: rgba(0, 0, 0, 0.95);
   border-radius: 0 18px 0 18px;
