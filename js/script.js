@@ -1,16 +1,16 @@
-// const button = document.querySelector('button');
-// const popup = document.querySelector('.popup__wrapper');
-// const close = document.querySelector('.popup__content-close');
-// button.addEventListener('click', () => {
-//     popup.style.display = 'inline-block';
-//     popup.style.margin = '0 auto';
-// });
-// close.addEventListener('click', () => {
-//     popup.style.display = 'none';
-// });
-// popup.addEventListener('click', () => {
-//     popup.style.display = 'none';
-// });
+const button = document.querySelector('button');
+const popup = document.querySelector('.popup__wrapper');
+const close = document.querySelector('.popup__content-close');
+button.addEventListener('click', () => {
+    popup.style.display = 'inline-block';
+    popup.style.margin = '0 auto';
+});
+close.addEventListener('click', () => {
+    popup.style.display = 'none';
+});
+popup.addEventListener('click', () => {
+    popup.style.display = 'none';
+});
 
 
 
@@ -42,7 +42,7 @@ var d = new Date();
 var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
 var weekdays = [
-    ["Sunday",  12.00, 21.00],
+    ["Sunday", 12.00, 21.00],
     ["Monday", 12.00, 21.00],
     ["Tuesday", 12.00, 22.30],
     ["Wednesday", 12.00, 22.30],
@@ -60,9 +60,10 @@ if (now > day[1] && now < day[2] || now > day[3] && now < day[4]) {
     // opening.innerText = 'We plan to reopen on the 29th of April!'
 
 }
- else {
+else {
     const opening = document.querySelector('.navbar__info-openStatus');
     opening.innerText = 'Sorry we are closed'
-    ;}
+        ;
+}
 
 
