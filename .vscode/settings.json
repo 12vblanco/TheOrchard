@@ -1,7 +1,4 @@
 {
-    "cSpell.words": [
-        "Cannonmills",
-        "favourites",
-        "lockdown"
-    ]
+  "cSpell.words": ["Cannonmills", "favourites", "lockdown"],
+  "liveServer.settings.port": 5501
 }
