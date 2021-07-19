@@ -12,32 +12,49 @@ popup.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
+// OPENING HOURS
+const ul = document.querySelector('.openingjs');
+
+const openingjs = [
+'Monday 12:00 - 21.00 ', 
+'Tuesday 12:00 - 22:30 ', 
+'Wednesday 12:00 - 22:30 ', 
+'Thursday 12:00 - 22:30 ', 
+'Friday 12:00 - 22:30 ', 
+'Saturday 12:00 - 22:30 ', 
+'Sunday 12:00 - 21.00 '];
+
+let html = ``;
+
+openingjs.forEach( openingHours => {
+    html += `<li style="list-style: none; text-align: center;"> ${openingHours} </li>`
+});
+
+ul.innerHTML = html;
+// // opening footer
+// const monday = document.querySelector('.footer__opening-monday');
+// monday.innerText = 'Monday 12:00-09.00pm';
+
+// const tuesday = document.querySelector('.footer__opening-tuesday');
+// tuesday.innerText = 'Tuesday 12:00-10.30pm';
+
+// const wednesday = document.querySelector('.footer__opening-wednesday');
+// wednesday.innerText = 'Wednesday 12:00-10.30pm';
+
+// const thursday = document.querySelector('.footer__opening-thursday');
+// thursday.innerText = 'Thursday 12:00-10.30pm';
+
+// const friday = document.querySelector('.footer__opening-friday');
+// friday.innerText = 'Friday 12:00-10.30pm';
+
+// const saturday = document.querySelector('.footer__opening-saturday');
+// saturday.innerText = 'Saturday 12:00-10:30pm';
+
+// const sunday = document.querySelector('.footer__opening-sunday');
+// sunday.innerText = 'Sunday 12:00-09.00pm';
 
 
-// opening footer
-const monday = document.querySelector('.footer__opening-monday');
-monday.innerText = 'Monday 12:00-09.00pm';
-
-const tuesday = document.querySelector('.footer__opening-tuesday');
-tuesday.innerText = 'Tuesday 12:00-10.30pm';
-
-const wednesday = document.querySelector('.footer__opening-wednesday');
-wednesday.innerText = 'Wednesday 12:00-10.30pm';
-
-const thursday = document.querySelector('.footer__opening-thursday');
-thursday.innerText = 'Thursday 12:00-10.30pm';
-
-const friday = document.querySelector('.footer__opening-friday');
-friday.innerText = 'Friday 12:00-10.30pm';
-
-const saturday = document.querySelector('.footer__opening-saturday');
-saturday.innerText = 'Saturday 12:00-10:30pm';
-
-const sunday = document.querySelector('.footer__opening-sunday');
-sunday.innerText = 'Sunday 12:00-09.00pm';
-
-
-// opening now
+// NOW OPENED?
 var d = new Date();
 var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
