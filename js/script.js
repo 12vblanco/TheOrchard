@@ -17,11 +17,11 @@ const ul = document.querySelector('.openingjs');
 
 const openingjs = [
 'Monday 12:00 - 21.00 ', 
-'Tuesday 12:00 - 22:30 ', 
-'Wednesday 12:00 - 22:30 ', 
-'Thursday 12:00 - 22:30 ', 
-'Friday 12:00 - 22:30 ', 
-'Saturday 12:00 - 22:30 ', 
+'Tuesday 12:00 - 23:00 ', 
+'Wednesday 12:00 - 23:00 ', 
+'Thursday 12:00 - 23:00 ', 
+'Friday 12:00 - 23:00 ', 
+'Saturday 12:00 - 23:00 ', 
 'Sunday 12:00 - 21.00 '];
 
 let html = ``;
