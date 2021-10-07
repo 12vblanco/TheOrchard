@@ -53,6 +53,6 @@ if ((now > day[1] && now < day[2]) || (now > day[3] && now < day[4])) {
   // opening.innerText = 'We plan to reopen on the 29th of April!'
 } else {
   const opening = document.querySelector(".navbar__info-openStatus");
-  opening.innerText = "";
+  opening.innerText = "Sorry we are closed";
 }
 // Sorry we are closed
