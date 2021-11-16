@@ -1563,7 +1563,7 @@ html img {
 
 @media only screen and (max-width: 37.5em) {
   .body__top--gallery {
-    margin-top: 22rem;
+    margin-top: 29rem;
     padding-bottom: 4rem;
   }
 }
@@ -2084,7 +2084,7 @@ h3 {
 }
 
 .body__top-text--covid {
-  font-size: 2.8rem;
+  font-size: 2rem;
   max-width: 80rem;
   text-align: left;
   color: #000;
