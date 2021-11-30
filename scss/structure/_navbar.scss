@@ -122,7 +122,7 @@
     justify-content: center;
     transform: scale(0);
     transition: all 0.4s ease;
-    z-index: 4;
+    z-index: 6;
     &--wrap {
       text-align: center;
       max-width: 90vw;
@@ -136,14 +136,18 @@
         & li {
           color: $color-white;
           font-family: $font-primary;
-          font-size: 2rem;
+          font-size: 1.8rem;
           text-transform: uppercase;
           font-weight: 700;
           margin-top: 1rem;
+          line-height: 1.4;
+          z-index: inherit;
 
           @include respond(ph) {
-            font-size: 2.6rem;
+            font-size: 2.8rem;
             margin-top: 2rem;
+            line-height: 1.5;
+            margin-top: 1.2rem;
           }
           .active {
             color: $color-accent;
@@ -261,7 +265,7 @@
   border-radius: 0 18px 0 18px;
   background: rgba(black, $alpha: 0.9);
   font-family: $font-primary;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
@@ -303,7 +307,7 @@
         height: auto;
         background: rgba($color-black, $alpha: 0.9);
         border-radius: 18px;
-        font-size: 2.4rem;
+        font-size: 2rem;
         line-height: 2;
         padding: 2rem 2rem 2rem 2.4rem;
         z-index: 3;

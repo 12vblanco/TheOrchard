@@ -532,7 +532,7 @@ html img {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  z-index: 4;
+  z-index: 6;
 }
 
 .navbar .menu__container--wrap {
@@ -552,16 +552,20 @@ html img {
 .navbar .menu__container--wrap ul li {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 1rem;
+  line-height: 1.4;
+  z-index: inherit;
 }
 
 @media only screen and (max-width: 37.5em) {
   .navbar .menu__container--wrap ul li {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     margin-top: 2rem;
+    line-height: 1.5;
+    margin-top: 1.2rem;
   }
 }
 
@@ -714,7 +718,7 @@ html img {
   border-radius: 0 18px 0 18px;
   background: rgba(0, 0, 0, 0.9);
   font-family: "Poppins", sans-serif;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
@@ -776,7 +780,7 @@ html img {
   height: auto;
   background: rgba(0, 0, 0, 0.9);
   border-radius: 18px;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 2;
   padding: 2rem 2rem 2rem 2.4rem;
   z-index: 3;
