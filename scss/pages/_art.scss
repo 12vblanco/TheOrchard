@@ -71,7 +71,7 @@
     max-width: 104rem;
     img {
       margin: 1rem;
-      width: 300px;
+      width: auto;
       height: 202px;
       max-width: 30rem;
       @include respond(ph) {
