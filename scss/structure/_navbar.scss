@@ -462,9 +462,7 @@
   min-height: 496px;
   overflow: hidden;
   font-family: $font-primary;
-  @include respond(ph) {
-    width: 100%;
-  }
+
   @include respond(ph) {
     width: 100%;
   }
@@ -475,4 +473,8 @@
   max-width: 120px;
   position: relative;
   top: -1rem;
+
+  @include respond(ph) {
+    font-size: 1.8rem;
+  }
 }

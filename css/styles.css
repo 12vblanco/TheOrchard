@@ -1024,17 +1024,17 @@ html img {
   }
 }
 
-@media only screen and (max-width: 37.5em) {
-  .iframe {
-    width: 100%;
-  }
-}
-
 .xmas {
   font-size: 1rem;
   max-width: 120px;
   position: relative;
   top: -1rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .xmas {
+    font-size: 1.8rem;
+  }
 }
 
 #notice {
