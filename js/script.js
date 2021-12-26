@@ -16,9 +16,9 @@ popup.addEventListener("click", () => {
 const ul = document.querySelector(".openingjs");
 
 const openingjs = [
-  "Christmas Eve Friday 24th",
-  "Kitchen 12 - 4.30pm Bar 12- 8pm",
-  "Christmas Day Saturday 25th Closed",
+  // "Christmas Eve Friday 24th",
+  // "Kitchen 12 - 4.30pm Bar 12- 8pm",
+  // "Christmas Day Saturday 25th Closed",
   "Boxing Day Sunday 26th",
   "Kitchen 3 – 8.30pm Bar 3 – 9pm",
   "Monday  27th 3-9pm",
