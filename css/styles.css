@@ -628,7 +628,6 @@ html img {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 2.4rem;
 }
 
 @media only screen and (max-width: 62.37em) {

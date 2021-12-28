@@ -190,7 +190,7 @@
   &__info {
     display: inline-block;
     flex-direction: column;
-    padding-top: 2.4rem;
+    // padding-top: 2.4rem;
 
     @include respond(tp) {
       padding-top: 0rem;
