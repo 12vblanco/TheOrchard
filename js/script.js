@@ -16,12 +16,6 @@ popup.addEventListener("click", () => {
 const ul = document.querySelector(".openingjs");
 
 const openingjs = [
-  // "Christmas Eve Friday 24th",
-  // "Kitchen 12 - 4.30pm Bar 12- 8pm",
-  // "Christmas Day Saturday 25th Closed",
-  "Boxing Day Sunday 26th",
-  "Kitchen 3 – 8.30pm Bar 3 – 9pm",
-  "Monday  27th 3-9pm",
   "Tuesday 28th 3-9pm",
   "Wednesday 29th 3-9pm",
   "Thursday 30th 3-9pm",
@@ -44,27 +38,6 @@ openingjs.forEach((openingHours) => {
 });
 
 ul.innerHTML = html;
-// // opening footer
-// const monday = document.querySelector('.footer__opening-monday');
-// monday.innerText = 'Monday 12:00-09.00pm';
-
-// const tuesday = document.querySelector('.footer__opening-tuesday');
-// tuesday.innerText = 'Tuesday 12:00-10.30pm';
-
-// const wednesday = document.querySelector('.footer__opening-wednesday');
-// wednesday.innerText = 'Wednesday 12:00-10.30pm';
-
-// const thursday = document.querySelector('.footer__opening-thursday');
-// thursday.innerText = 'Thursday 12:00-10.30pm';
-
-// const friday = document.querySelector('.footer__opening-friday');
-// friday.innerText = 'Friday 12:00-10.30pm';
-
-// const saturday = document.querySelector('.footer__opening-saturday');
-// saturday.innerText = 'Saturday 12:00-10:30pm';
-
-// const sunday = document.querySelector('.footer__opening-sunday');
-// sunday.innerText = 'Sunday 12:00-09.00pm';
 
 // NOW OPENED?
 var d = new Date();
@@ -91,5 +64,4 @@ if ((now > day[1] && now < day[2]) || (now > day[3] && now < day[4])) {
 }
 
 // COPYRIGHT
-
 document.querySelector(".year").innerHTML = new Date().getFullYear();
