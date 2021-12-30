@@ -654,6 +654,10 @@ html img {
   letter-spacing: -0.02rem;
 }
 
+.navbar__info-openStatus h2 {
+  font-size: 2.6rem;
+}
+
 @media only screen and (max-width: 37.5em) {
   .navbar__info-openStatus {
     font-size: 3rem;

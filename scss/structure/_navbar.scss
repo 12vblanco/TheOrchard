@@ -209,6 +209,10 @@
       margin-left: 3rem;
       letter-spacing: -0.02rem;
 
+      & .openJs {
+        font-size: 2.6rem;
+      }
+
       @include respond(ph) {
         font-size: 3rem;
         margin-left: 0rem;
