@@ -47,8 +47,8 @@ var weekdays = [
   ["Monday", 12.0, 22.0],
   ["Tuesday", 12.0, 22.0],
   ["Wednesday", 12.0, 22.0],
-  ["Thursday", 12.0, 23.0],
-  ["Friday", 12.0, 22.0],
+  ["Thursday", 12.0, 22.0],
+  ["Friday", 12.0, 23.0],
   ["Saturday", 12.0, 22.0],
 ];
 var day = weekdays[n];
