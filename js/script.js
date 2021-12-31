@@ -13,7 +13,7 @@ popup.addEventListener("click", () => {
 });
 
 // OPENING HOURS
-const ul = document.querySelector(".openingjs");
+const opening = document.querySelector(".openingjs");
 
 const openingjs = [
   "Friday 31st 12-11pm",
@@ -21,11 +21,13 @@ const openingjs = [
   "Sunday 2nd 12-10pm",
   "Monday 12:00 - 22.00 ",
   "Tuesday 12:00 - 22:00 ",
-  "Wednesday 12:00 - 23:00 ",
-  "Thursday 12:00 - 23:00 ",
+  "Wednesday 12:00 - 22:00 ",
+  "Thursday 12:00 - 22:00 ",
   // "Friday 12:00 - 23:00 ",
   // "Saturday 12:00 - 23:00 ",
   // "Sunday 12:00 - 22.00 ",
+  "We will be closed Monday 10th,",
+  "Tuesday 11th and Wednesday 12th",
 ];
 
 let html = ``;
@@ -34,7 +36,7 @@ openingjs.forEach((openingHours) => {
   html += `<li style="list-style: none; text-align: center;"> ${openingHours} </li>`;
 });
 
-ul.innerHTML = html;
+opening.innerHTML = html;
 
 // NOW OPENED?
 var d = new Date();
@@ -44,9 +46,9 @@ var weekdays = [
   ["Sunday", 12.0, 22.0],
   ["Monday", 12.0, 22.0],
   ["Tuesday", 12.0, 22.0],
-  ["Wednesday", 12.0, 23.0],
+  ["Wednesday", 12.0, 22.0],
   ["Thursday", 12.0, 23.0],
-  ["Friday", 12.0, 23.0],
+  ["Friday", 12.0, 22.0],
   ["Saturday", 12.0, 22.0],
 ];
 var day = weekdays[n];
