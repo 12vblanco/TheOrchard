@@ -16,18 +16,17 @@ popup.addEventListener("click", () => {
 const opening = document.querySelector(".openingjs");
 
 const openingjs = [
-  "Friday 31st 12-11pm",
   "Saturday 1st 12-10pm",
   "Sunday 2nd 12-10pm",
   "Monday 3rd 12:00 - 22.00 ",
   "Tuesday 4th 12:00 - 22:00 ",
   "Wednesday 5th 12:00 - 22:00 ",
   "Thursday 6th 12:00 - 22:00 ",
-  // "Friday 12:00 - 23:00 ",
+  "Friday 7th 12:00 - 23:00 ",
   // "Saturday 12:00 - 23:00 ",
   // "Sunday 12:00 - 22.00 ",
   "We will be closed Monday 10th,",
-  "Tuesday 11th and Wednesday 12th",
+  "Tuesday 11th & Wednesday 12th",
 ];
 
 let html = ``;
@@ -37,6 +36,31 @@ openingjs.forEach((openingHours) => {
 });
 
 opening.innerHTML = html;
+
+// Burger Menu
+// const bMenu = document.querySelector(".b_menu");
+
+// const burgerMenu = [
+//   "<a href='index.html' class='active'>Home</a>",
+//   "<a href='gallery.html'>Gallery</a>",
+//   "<a href='art.html'>Art</a>",
+//   "<a href='about.html'>About Us</a>",
+//   "<a href='menu/food.pdf' target='_blank'>Food Menu</a>",
+//   "<a href='menu/kids.pdf' target='_blank'>Kids Menu</a>",
+//   "<a href='menu/gluten.pdf' target='_blank'>Gluten Free</a>",
+//   "<a href='menu/wine.pdf' target='_blank'>Wine Menu</a>",
+//   "<a href='menu/beer.pdf' target='_blank'>Beer & Cider</a>",
+//   "<a href='menu/whisky.pdf' target='_blank'>Whisky</a>",
+//   "<a href='menu/rum.pdf' target='_blank'>Rum</a>",
+//   "<a href='menu/gin.pdf' target='_blank'>Gin</a>",
+//   "<a href='menu/sherry.pdf' target='_blank'>Sherry Tea & Coffee</a>",
+// ];
+
+// burgerMenu.forEach((bMenus) => {
+//   html += `<li style="list-style: none; text-align: center;"> ${bMenus} </li>`;
+// });
+
+// bMenu.innerHTML = html;
 
 // NOW OPENED?
 var d = new Date();
