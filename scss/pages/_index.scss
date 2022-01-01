@@ -1,7 +1,6 @@
 // Reopening plan
 #notice {
   position: relative;
-  top: -10rem;
 }
 
 .notice {
@@ -11,7 +10,7 @@
   margin: auto;
   padding: 2rem;
   position: relative;
-  top: -8rem;
+  top: -12rem;
   margin-bottom: -14rem;
   @include respond(tp) {
     width: 94%;
