@@ -16,7 +16,6 @@ popup.addEventListener("click", () => {
 const opening = document.querySelector(".openingjs");
 
 const openingjs = [
-  "Sunday 2nd 12-10pm",
   "Monday 3rd 12:00 - 22.00 ",
   "Tuesday 4th 12:00 - 22:00 ",
   "Wednesday 5th 12:00 - 22:00 ",
