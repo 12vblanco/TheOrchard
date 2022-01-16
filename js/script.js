@@ -97,6 +97,3 @@ if ((now > day[1] && now < day[2]) || (now > day[3] && now < day[4])) {
   const opening = document.querySelector(".navbar__info-openStatus");
   opening.innerText = "Sorry we are closed";
 }
-
-// COPYRIGHT
-document.querySelector(".year").innerHTML = new Date().getFullYear();
