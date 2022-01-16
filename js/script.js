@@ -34,29 +34,45 @@ openingjs.forEach((openingHours) => {
 opening.innerHTML = html;
 
 // Burger Menu
-// const bMenu = document.querySelector(".b_menu");
+const burgerMenu = document.getElementsByClassName("burger_menu");
+burgerMenu[0].innerHTML = "<a href='index.html'>Home</a>";
+burgerMenu[1].innerHTML = "<a href='covid.html'>Covid 19</a>";
+burgerMenu[2].innerHTML = "<a href='gallery.html'>Gallery</a>";
+burgerMenu[3].innerHTML = "<a href='art.html'>Art</a>";
+burgerMenu[4].innerHTML = "<a href='about.html'>About Us</a>";
+burgerMenu[5].innerHTML =
+  "<a href='menu/food.pdf' target='_blank'>Food Menu</a>";
+burgerMenu[6].innerHTML =
+  "<a href='menu/kids.pdf' target='_blank'>Kid's Menu</a>";
+burgerMenu[7].innerHTML =
+  "<a href='menu/gluten.pdf' target='_blank'>Gluten Free</a>";
+burgerMenu[8].innerHTML =
+  "<a href='menu/wine.pdf' target='_blank'>Wine Menu</a>";
+burgerMenu[9].innerHTML =
+  "<a href='menu/beer.pdf' target='_blank'>Beer & Cider</a>";
+burgerMenu[10].innerHTML =
+  "<a href='menu/whisky.pdf' target='_blank'>Whisky</a>";
+burgerMenu[11].innerHTML = "<a href='menu/rum.pdf' target='_blank'>Rum</a>";
+burgerMenu[12].innerHTML = "<a href='menu/gin.pdf' target='_blank'>Gin</a>";
+burgerMenu[13].innerHTML =
+  "<a href='menu/sherry.pdf' target='_blank'>Sherry Tea & Coffee</a>";
 
-// const burgerMenu = [
-//   "<a href='index.html' class='active'>Home</a>",
-//   "<a href='gallery.html'>Gallery</a>",
-//   "<a href='art.html'>Art</a>",
-//   "<a href='about.html'>About Us</a>",
-//   "<a href='menu/food.pdf' target='_blank'>Food Menu</a>",
-//   "<a href='menu/kids.pdf' target='_blank'>Kids Menu</a>",
-//   "<a href='menu/gluten.pdf' target='_blank'>Gluten Free</a>",
-//   "<a href='menu/wine.pdf' target='_blank'>Wine Menu</a>",
-//   "<a href='menu/beer.pdf' target='_blank'>Beer & Cider</a>",
-//   "<a href='menu/whisky.pdf' target='_blank'>Whisky</a>",
-//   "<a href='menu/rum.pdf' target='_blank'>Rum</a>",
-//   "<a href='menu/gin.pdf' target='_blank'>Gin</a>",
-//   "<a href='menu/sherry.pdf' target='_blank'>Sherry Tea & Coffee</a>",
-// ];
+// Side Menu
+const sideMenu = document.getElementsByClassName("side_menu");
 
-// burgerMenu.forEach((bMenus) => {
-//   html += `<li style="list-style: none; text-align: center;"> ${bMenus} </li>`;
-// });
-
-// bMenu.innerHTML = html;
+sideMenu[1].innerHTML = "<a href='menu/food.pdf' target='_blank'>Food Menu</a>";
+sideMenu[2].innerHTML =
+  "<a href='menu/kids.pdf' target='_blank'>Kid's Menu</a>";
+sideMenu[3].innerHTML =
+  "<a href='menu/gluten.pdf' target='_blank'>Gluten Free</a>";
+sideMenu[4].innerHTML = "<a href='menu/wine.pdf' target='_blank'>Wine Menu</a>";
+sideMenu[5].innerHTML =
+  "<a href='menu/beer.pdf' target='_blank'>Beer & Cider</a>";
+sideMenu[6].innerHTML = "<a href='menu/whisky.pdf' target='_blank'>Whisky</a>";
+sideMenu[7].innerHTML = "<a href='menu/rum.pdf' target='_blank'>Rum</a>";
+sideMenu[8].innerHTML = "<a href='menu/gin.pdf' target='_blank'>Gin</a>";
+sideMenu[9].innerHTML =
+  "<a href='menu/sherry.pdf' target='_blank'>Sherry Tea & Coffee</a>";
 
 // NOW OPENED?
 var d = new Date();
