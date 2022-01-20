@@ -992,8 +992,9 @@ html img {
   right: 0;
   cursor: pointer;
   color: #333333;
-  font-weight: 900;
-  font-size: 2rem;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 4px;
   text-transform: capitalize;
   -webkit-transition: all 0.4s ease-in;
   -o-transition: all 0.4s ease-in;
@@ -1013,6 +1014,7 @@ html img {
 .iframe {
   border: 0px none;
   min-width: 320px;
+  border-radius: 12px;
   width: 20vw;
   height: 48vh;
   max-height: 496px;
