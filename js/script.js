@@ -1,23 +1,29 @@
+// booking element **needs changing
 const button = document.querySelector("button");
 const popup = document.querySelector(".popup__wrapper");
 const close = document.querySelector(".popup__content-close");
+const burger = document.querySelector(".burger__menu--check");
 button.addEventListener("click", () => {
   popup.style.display = "inline-block";
   popup.style.margin = "0 auto";
+  burger.checked = false;
+  document.getElementById("menu").setAttribute("disabled", "disabled");
 });
 close.addEventListener("click", () => {
   popup.style.display = "none";
+  document.getElementById("menu").disabled = false;
 });
 popup.addEventListener("click", () => {
   popup.style.display = "none";
+  document.getElementById("menu").disabled = false;
 });
 
 // OPENING HOURS
 const opening = document.querySelector(".openingjs");
 
 const openingjs = [
-  "Monday Closed ",
-  "Tuesday Closed ",
+  "Monday 24th Closed ",
+  "Tuesday 25th Closed ",
   "Wednesday 12:00 - 22:00 ",
   "Thursday 12:00 - 22:00 ",
   "Friday 12:00 - 23:00 ",
