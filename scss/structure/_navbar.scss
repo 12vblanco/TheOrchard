@@ -474,6 +474,7 @@
   position: relative;
   top: -60px;
   cursor: pointer;
+  z-index: 80;
   color: #000000;
   @include respond(ph) {
     top: -40px;

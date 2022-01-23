@@ -956,6 +956,7 @@ html img {
   position: relative;
   top: -60px;
   cursor: pointer;
+  z-index: 80;
   color: #000000;
 }
 
