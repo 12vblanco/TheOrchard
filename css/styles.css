@@ -1003,10 +1003,11 @@ html img {
   }
 }
 
-@media only screen and (max-width: 62.37em) {
+@media only screen and (max-width: 37.5em) {
   .notice {
+    top: -2rem;
     width: 94%;
-    margin-bottom: -10rem;
+    margin-bottom: -6rem;
   }
 }
 

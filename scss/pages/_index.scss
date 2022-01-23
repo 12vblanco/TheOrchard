@@ -15,9 +15,10 @@
   @include respond(tp) {
     width: 94%;
   }
-  @include respond(tp) {
+  @include respond(ph) {
+    top: -2rem;
     width: 94%;
-    margin-bottom: -10rem;
+    margin-bottom: -6rem;
   }
 
   h2 {
