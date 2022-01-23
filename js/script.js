@@ -1,20 +1,72 @@
+/* FORM*/
+// const button = document.querySelector('.button_open');
+// const form = document.querySelector('#main_form');
+// const close = document.querySelector('.close');
+
+// Open form
+// button.addEventListener('click', () => {
+//   form.style.height = '50rem';
+//   form.style.visibility = 'visible';
+//   form.style.opacity = '1';
+//   document.getElementById('main_form').style.transition =
+//     'height .4s, opacity .5s';
+// });
+
+// Close form
+// close.addEventListener('click', () => {
+//   form.style.height = '0';
+//   form.style.visibility = 'hidden';
+//   form.style.opacity = '0';
+//   document.getElementById('main_form').style.transition =
+//     'height 0.4s, opacity .4s';
+// });
+
 // booking element **needs changing
+// const button = document.querySelector("button");
+// const popup = document.querySelector(".popup__wrapper");
+// const close = document.querySelector(".popup__content-close");
+// const burger = document.querySelector(".burger__menu--check");
+// const iframe = document.querySelector(".iframe");
+// button.addEventListener("click", () => {
+//   popup.style.display = "inline-block";
+//   popup.style.margin = "0 auto";
+//   burger.checked = false;
+//   document.getElementById("menu").setAttribute("disabled", "disabled");
+// });
+// close.addEventListener("click", () => {
+//   popup.style.display = "none";
+//   document.getElementById("menu").disabled = false;
+// });
+// popup.addEventListener("click", () => {
+//   popup.style.display = "none";
+//   document.getElementById("menu").disabled = false;
+// });
+
+const popup = document.querySelector(".popup");
+const iframe = document.querySelector(".iframe");
 const button = document.querySelector("button");
-const popup = document.querySelector(".popup__wrapper");
-const close = document.querySelector(".popup__content-close");
+const close = document.querySelector(".popup__close");
 const burger = document.querySelector(".burger__menu--check");
+const outsideClose = document.querySelector(".popup__wrapper");
+
 button.addEventListener("click", () => {
-  popup.style.display = "inline-block";
-  popup.style.margin = "0 auto";
+  popup.style.opacity = "1";
+  popup.style.transition = "opacity .8s";
   burger.checked = false;
   document.getElementById("menu").setAttribute("disabled", "disabled");
 });
 close.addEventListener("click", () => {
-  popup.style.display = "none";
+  popup.style.opacity = "0";
+  popup.style.transition = "opacity .4s";
+  document.getElementById("menu").disabled = false;
+});
+outsideClose.addEventListener("click", () => {
+  popup.style.opacity = "0";
+  popup.style.transition = "opacity .4s";
   document.getElementById("menu").disabled = false;
 });
 popup.addEventListener("click", () => {
-  popup.style.display = "none";
+  popup.style.opacity = "0";
   document.getElementById("menu").disabled = false;
 });
 

@@ -4,10 +4,6 @@
   background: transparent;
 }
 
-@include respond(ph) {
-  left: 0;
-}
-
 #header__covid {
   height: 100%;
   @include respond(tp) {
