@@ -909,7 +909,7 @@ html img {
 
 .popup__wrapper {
   background: rgba(0, 0, 0, 0.9);
-  margin-top: -28rem;
+  margin-top: -18rem;
   height: 100vh;
   opacity: 0;
   z-index: 21;
@@ -925,7 +925,7 @@ html img {
           transform: translate(-50%, -50%);
   height: 504px;
   width: 300px;
-  margin-top: 22rem;
+  margin-top: 18rem;
   background: white;
   z-index: 22;
   opacity: 1;
@@ -1002,7 +1002,7 @@ html img {
   margin: auto;
   padding: 2rem;
   position: relative;
-  top: -10rem;
+  top: -7rem;
   margin-bottom: -14rem;
 }
 
@@ -1997,7 +1997,7 @@ h3 {
 }
 
 .body {
-  margin-top: -80vh;
+  margin-top: -78vh;
   width: 100%;
   height: auto;
   display: -webkit-box;
