@@ -51,18 +51,24 @@ const outsideClose = document.querySelector(".popup__wrapper");
 
 button.addEventListener("click", () => {
   popup.style.opacity = "1";
-  popup.style.transition = "opacity .8s";
+  outsideClose.style.opacity = "1";
+  popup.style.transition = "opacity .4s";
+  outsideClose.style.transition = "opacity .2s";
   burger.checked = false;
   document.getElementById("menu").setAttribute("disabled", "disabled");
 });
 close.addEventListener("click", () => {
   popup.style.opacity = "0";
   popup.style.transition = "opacity .4s";
+  outsideClose.style.opacity = "0";
+  outsideClose.style.transition = "opacity .2s";
   document.getElementById("menu").disabled = false;
 });
 outsideClose.addEventListener("click", () => {
   popup.style.opacity = "0";
   popup.style.transition = "opacity .4s";
+  outsideClose.style.opacity = "0";
+  outsideClose.style.transition = "opacity .2s";
   document.getElementById("menu").disabled = false;
 });
 popup.addEventListener("click", () => {

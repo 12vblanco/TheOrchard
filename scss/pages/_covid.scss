@@ -15,6 +15,7 @@
   }
 }
 .body {
+  margin-top: -80vh;
   @include body__secondary;
   justify-content: center;
   margin-bottom: 14rem;
