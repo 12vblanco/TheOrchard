@@ -917,7 +917,7 @@ html img {
 
 .popup {
   position: relative;
-  top: 44%;
+  top: 42%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
