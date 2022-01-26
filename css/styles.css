@@ -1709,7 +1709,7 @@ html img {
 }
 
 h2 {
-  font-size: 3.4rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -1724,7 +1724,7 @@ h3 {
 }
 
 .exhi_h1 {
-  font-size: 4.4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1996,7 +1996,7 @@ h3 {
 }
 
 .body {
-  margin-top: -78vh;
+  margin-top: -98vh;
   width: 100%;
   height: auto;
   display: -webkit-box;
