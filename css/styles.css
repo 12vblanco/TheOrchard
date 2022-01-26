@@ -1563,7 +1563,7 @@ html img {
 }
 
 #position__art {
-  top: 18%;
+  top: 14%;
   z-index: 0;
 }
 
@@ -1587,7 +1587,6 @@ html img {
       -ms-flex-align: center;
           align-items: center;
   text-align: left;
-  margin-top: 1rem;
 }
 
 .art__intro-header {
@@ -1660,7 +1659,7 @@ html img {
 .art__exhibition-text {
   font-size: 2rem;
   text-align: left;
-  max-width: 400px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
