@@ -80,7 +80,7 @@ popup.addEventListener("click", () => {
 const opening = document.querySelector(".openingjs");
 
 const openingjs = [
-  "Monday  12:00 - 15.00 ",
+  "Monday  12:00 - 22.00 ",
   "Tuesday  12:00 - 22.00 ",
   "Wednesday  12:00 - 23:00 ",
   "Thursday  12:00 - 23:00 ",
@@ -144,7 +144,7 @@ var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
 var weekdays = [
   ["Sunday", 12.0, 22.0],
-  ["Monday", 12.0, 15.0],
+  ["Monday", 12.0, 22.0],
   ["Tuesday", 12.0, 22.0],
   ["Wednesday", 12.0, 23.0],
   ["Thursday", 12.0, 23.0],
