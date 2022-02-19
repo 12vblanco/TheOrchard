@@ -1,47 +1,3 @@
-/* FORM*/
-// const button = document.querySelector('.button_open');
-// const form = document.querySelector('#main_form');
-// const close = document.querySelector('.close');
-
-// Open form
-// button.addEventListener('click', () => {
-//   form.style.height = '50rem';
-//   form.style.visibility = 'visible';
-//   form.style.opacity = '1';
-//   document.getElementById('main_form').style.transition =
-//     'height .4s, opacity .5s';
-// });
-
-// Close form
-// close.addEventListener('click', () => {
-//   form.style.height = '0';
-//   form.style.visibility = 'hidden';
-//   form.style.opacity = '0';
-//   document.getElementById('main_form').style.transition =
-//     'height 0.4s, opacity .4s';
-// });
-
-// booking element **needs changing
-// const button = document.querySelector("button");
-// const popup = document.querySelector(".popup__wrapper");
-// const close = document.querySelector(".popup__content-close");
-// const burger = document.querySelector(".burger__menu--check");
-// const iframe = document.querySelector(".iframe");
-// button.addEventListener("click", () => {
-//   popup.style.display = "inline-block";
-//   popup.style.margin = "0 auto";
-//   burger.checked = false;
-//   document.getElementById("menu").setAttribute("disabled", "disabled");
-// });
-// close.addEventListener("click", () => {
-//   popup.style.display = "none";
-//   document.getElementById("menu").disabled = false;
-// });
-// popup.addEventListener("click", () => {
-//   popup.style.display = "none";
-//   document.getElementById("menu").disabled = false;
-// });
-
 const popup = document.querySelector(".popup");
 const iframe = document.querySelector(".iframe");
 const button = document.querySelector("button");
@@ -80,7 +36,7 @@ popup.addEventListener("click", () => {
 const opening = document.querySelector(".openingjs");
 
 const openingjs = [
-  "Monday  12:00 - 22.00 ",
+  "Monday  12:00 - 15.00 ",
   "Tuesday  12:00 - 22.00 ",
   "Wednesday  12:00 - 23:00 ",
   "Thursday  12:00 - 23:00 ",
@@ -144,7 +100,7 @@ var n = d.getDay();
 var now = d.getHours() + "." + d.getMinutes();
 var weekdays = [
   ["Sunday", 12.0, 22.0],
-  ["Monday", 12.0, 22.0],
+  ["Monday", 12.0, 15.0],
   ["Tuesday", 12.0, 22.0],
   ["Wednesday", 12.0, 23.0],
   ["Thursday", 12.0, 23.0],
