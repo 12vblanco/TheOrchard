@@ -57,7 +57,6 @@ opening.innerHTML = html;
 const burgerMenu = document.querySelectorAll(".burger_menu");
 const burgerLi = [
   "<a href='index.html'>Home</a>",
-  "<a href='covid.html'>Covid 19</a>",
   "<a href='gallery.html'>Gallery</a>",
   "<a href='art.html'>Art</a>",
   "<a href='about.html'>About Us</a>",
@@ -70,6 +69,7 @@ const burgerLi = [
   "<a href='menu/rum.pdf' target='_blank'>Rum</a>",
   "<a href='menu/gin.pdf' target='_blank'>Gin</a>",
   "<a href='menu/sherry.pdf' target='_blank'>Sherry Tea & Coffee</a>",
+  " ",
 ];
 burgerMenu.forEach((li, i) => {
   const bLi = burgerLi[i];
