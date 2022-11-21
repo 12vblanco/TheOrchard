@@ -1779,4 +1779,119 @@ h3 {
 .footer__about {
   color: #ffffff;
   margin-top: 6rem;
+}
+
+.header__secondary {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  height: auto;
+  background: transparent;
+}
+@media only screen and (max-width: 62.37em) {
+  .header__secondary {
+    min-height: 98rem;
+  }
+}
+#header__covid {
+  height: 100%;
+}
+@media only screen and (max-width: 62.37em) {
+  #header__covid {
+    height: 120%;
+    margin-bottom: -3rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  #header__covid {
+    height: auto;
+  }
+}
+
+.body {
+  margin-top: -98vh;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 5rem;
+  justify-content: center;
+  margin-bottom: 14rem;
+}
+.body__top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 27rem;
+}
+@media only screen and (max-width: 62.37em) {
+  .body__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 0rem;
+  }
+}
+.body__top-text--covid {
+  font-size: 2rem;
+  max-width: 80rem;
+  text-align: left;
+  color: #000;
+  margin-bottom: 3rem;
+}
+.body__top-text--covid p:first-letter {
+  font-size: 3.8rem;
+}
+@media only screen and (max-width: 62.37em) {
+  .body__top-text--covid {
+    text-align: left;
+    padding: 0 2rem;
+    position: relative;
+    margin: -7rem 0 -5rem 0;
+  }
+}
+.body__top-img--covid {
+  z-index: -1;
+}
+@media only screen and (max-width: 62.37em) {
+  .body__top-img--covid {
+    position: relative;
+    top: -6rem;
+    left: 6rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .body__top-img--covid {
+    position: relative;
+    top: -8rem;
+    left: 12rem;
+  }
+}
+.body__top-img--covid img {
+  max-width: 38rem;
+  margin: 2rem 2rem 0 2rem;
+  width: auto;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }/*# sourceMappingURL=styles.css.map */
