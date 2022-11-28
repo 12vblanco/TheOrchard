@@ -61,7 +61,7 @@ const burgerLi = [
   "<a href='art.html'>Art</a>",
   "<a href='about.html'>About Us</a>",
   "<a href='menu/food.pdf' target='_blank'>Food Menu</a>",
-  "<a href='menu/desert.pdf' target='_blank'>Desert Menu</a>",
+  "<a href='menu/dessert.pdf' target='_blank'>dessert Menu</a>",
   "<a href='menu/kids.pdf' target='_blank'>Kid's Menu</a>",
   "<a href='menu/gluten.pdf' target='_blank'>Gluten Free</a>",
   "<a href='menu/wine.pdf' target='_blank'>Wine Menu</a>",
@@ -81,7 +81,7 @@ burgerMenu.forEach((li, i) => {
 const sideMenu = document.querySelectorAll(".side_menu");
 const sideLi = [
   "<a href='menu/food.pdf' target='_blank'>Food Menu</a>",
-  "<a href='menu/desert.pdf' target='_blank'>Desert Menu</a>",
+  "<a href='menu/dessert.pdf' target='_blank'>dessert Menu</a>",
   "<a href='menu/kids.pdf' target='_blank'>Kid's Menu</a>",
   "<a href='menu/gluten.pdf' target='_blank'>Gluten Free</a>",
   "<a href='menu/wine.pdf' target='_blank'>Wine Menu</a>",
